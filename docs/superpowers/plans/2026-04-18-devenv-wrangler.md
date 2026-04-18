@@ -85,6 +85,10 @@ git commit -m "feat: configure devenv for Rust Cloudflare Worker development"
 
 - [ ] **Step 1: Update the build command**
 
+> **Note (post-implementation):** `pkgs.worker-build` from nixpkgs (0.7.x) is incompatible
+> with `worker = "0.8"`. The package is NOT added to devenv; `cargo install` is kept
+> but with an explicit version pin.
+
 In `wrangler.toml`, change:
 
 ```toml
@@ -96,7 +100,7 @@ to:
 
 ```toml
 [build]
-command = "worker-build --release"
+command = "cargo install -q worker-build@^0.8 && worker-build --release"
 ```
 
 - [ ] **Step 2: Verify the build works end-to-end**
