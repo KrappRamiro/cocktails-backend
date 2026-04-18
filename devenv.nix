@@ -8,7 +8,6 @@
   packages = [
     pkgs.git
     pkgs.wrangler
-    pkgs.worker-build
   ];
 
   languages.rust = {
