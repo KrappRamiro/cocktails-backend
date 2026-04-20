@@ -1,0 +1,6777 @@
+[
+  {
+    "name": "Martini Clásico",
+    "base": "gin",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "El clásico eterno. Elegante, seco y sin concesiones.",
+    "garnish": "Twist de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Extra Dry (vermut seco)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "piel",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Enfriar copa con hielo y soda; descartar.",
+      "Llenar mezclador con hielo. Añadir vermut, remover para bañar el hielo y escurrir exceso.",
+      "Agregar gin, remover 15 seg. Colar en copa fría.",
+      "Exprimir piel de limón sobre la copa."
+    ]
+  },
+  {
+    "name": "Tom Collins",
+    "base": "gin",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Refrescante y equilibrado. El gin sour alargado con soda que nunca falla.",
+    "garnish": "Rodaja de limón deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Agregar gin, limón y almíbar en coctelera con hielo. Agitar 10-15 seg.",
+      "Llenar vaso alto con hielo y colar la mezcla. Completar con soda."
+    ]
+  },
+  {
+    "name": "Gin Agrio",
+    "base": "gin",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Un sour limpio y cítrico. El gin en su expresión más pura.",
+    "garnish": "Twist de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Dry shake (sin hielo) 10 seg.",
+      "Añadir hielo, agitar 10 seg más.",
+      "Llenar vaso bajo con hielo y colar. Exprimir piel de limón sobre la superficie."
+    ]
+  },
+  {
+    "name": "Dama Blanca",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Clásico del siglo XX. Gin, triple sec y limón en perfecta armonía.",
+    "garnish": "Tira de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar coctelera con hielo. Añadir gin, triple sec y limón.",
+      "Agitar bien y colar en copa."
+    ]
+  },
+  {
+    "name": "Francés 75",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_vino",
+    "description": "Gin sour terminado con espumante. Elegante y festivo.",
+    "garnish": "Rodaja de limón deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "15ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Gancia / espumante",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera con hielo, colocar gin, almíbar y limón. Agitar 10 seg.",
+      "Colar en copa fría. Completar con espumante despacio."
+    ]
+  },
+  {
+    "name": "Bronx",
+    "base": "gin",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_vino",
+    "description": "El Martini con jugo de naranja. Suave, redondo y muy drinkable.",
+    "garnish": "Twist de naranja + rodaja naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Extra Dry (vermut seco)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Naranja fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar mezclador con hielo. Agregar todos los ingredientes.",
+      "Remover 15-20 seg. Colar en copa fría.",
+      "Exprimir piel de naranja y colocarla dentro."
+    ]
+  },
+  {
+    "name": "Southside",
+    "base": "gin",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Gin con menta y lima. Fresco, limpio y veraniego.",
+    "garnish": "Ramita de menta fresca",
+    "is_adapted": true,
+    "adaptation_note": "Sin bitters de pomelo",
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "35ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "6 hojas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En vaso alto poner gin, lima, soda, azúcar y menta.",
+      "Remover para disolver el azúcar. Añadir hielo picado y mover con cuchara.",
+      "Completar con más hielo. Decorar con menta."
+    ]
+  },
+  {
+    "name": "Negroni Aperol",
+    "base": "gin",
+    "taste": [
+      "amargo"
+    ],
+    "glass": "vaso_bajo",
+    "description": "La versión suavizada del Negroni. Amargo y aromático, con el dulzor del Aperol.",
+    "garnish": "Twist de naranja",
+    "is_adapted": true,
+    "adaptation_note": "Con Aperol en lugar de Campari",
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Aperol",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar mezclador con hielo. Añadir gin, Martini Rosso y Aperol.",
+      "Remover 20 seg. Colar en vaso bajo con hielo fresco.",
+      "Exprimir piel de naranja sobre el vaso."
+    ]
+  },
+  {
+    "name": "Americano",
+    "base": "gin",
+    "taste": [
+      "amargo"
+    ],
+    "glass": "vaso_alto",
+    "description": "Aperitivo clásico italiano. Bajo en alcohol, amargo y burbujeante.",
+    "garnish": "Tira de piel de limón",
+    "is_adapted": true,
+    "adaptation_note": "Con Aperol o Ramazotti en lugar de Campari",
+    "ingredients": [
+      {
+        "ingredient_name": "Aperol",
+        "amount": "25ml",
+        "note": "o Ramazotti",
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "toque",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "piel",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Llenar vaso con hielo. Agregar aperol y Martini Rosso.",
+      "Completar con soda. Mezclar suave. Decorar con piel de limón."
+    ]
+  },
+  {
+    "name": "Hawaiano Real",
+    "base": "gin",
+    "taste": [
+      "tropical",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Gin con ananá y limón. Tropical y refrescante.",
+    "garnish": "Rodaja de limón deshidratada + menta fresca",
+    "is_adapted": true,
+    "adaptation_note": "Sin sirope de orgeat",
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, poner gin, jugo de ananá, limón y almíbar. Llenar con hielo, agitar 10 seg.",
+      "Llenar vaso bajo con hielo picado. Colar y decorar."
+    ]
+  },
+  {
+    "name": "Cosmopolitan",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "Frutal, elegante y rosado. El ícono de los 90 que nunca pasa de moda.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "30ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "jugo de 1/2",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa con soda; descartar.",
+      "En coctelera agregar todos los ingredientes con hielo. Agitar 10-15 seg. Colar en copa fría."
+    ]
+  },
+  {
+    "name": "Moscow Mule",
+    "base": "vodka",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Vodka con ginger beer y lima. Fresco, picante y muy refrescante.",
+    "garnish": "Rodaja de lima deshidratada + menta fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ginger Beer",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, poner vodka, lima y almíbar con hielo. Agitar 10-15 seg.",
+      "Llenar vaso con hielo. Servir chorrito de ginger beer en fondo. Colar mezcla encima. Completar con más ginger beer."
+    ]
+  },
+  {
+    "name": "Mula de Arándano",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Versión frutal del Moscow Mule, con cranberry para un color vibrante.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "12.5ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ginger Beer",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, agregar vodka, cranberry y lima con hielo. Agitar 10 seg.",
+      "Llenar vaso con hielo. Colar mezcla. Completar con ginger beer."
+    ]
+  },
+  {
+    "name": "Brisa de Bahía",
+    "base": "vodka",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Vodka con ananá y cranberry. Tropical y frutal de principio a fin.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, poner todos los ingredientes con hielo. Agitar 10 seg.",
+      "Colar en vaso alto lleno de hielo."
+    ]
+  },
+  {
+    "name": "Caipivodka",
+    "base": "vodka",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "La caipirinha pero con vodka. Simple, directa y deliciosa.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdtas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Cortar lima en trozos y poner en vaso bajo. Añadir azúcar. Machacar hasta extraer jugo.",
+      "Llenar con hielo picado. Verter vodka y mezclar suave."
+    ]
+  },
+  {
+    "name": "Ruso Negro",
+    "base": "vodka",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka y licor de café sobre hielo. Oscuro, intenso y sin complicaciones.",
+    "garnish": "1 grano de café (opcional)",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "45ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En vaso bajo, añadir vodka y licor de café. Llenar con hielo. Remover 5 seg y servir."
+    ]
+  },
+  {
+    "name": "Espresso Martini",
+    "base": "vodka",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka, licor de café y espresso frío. El after-dinner que te despierta.",
+    "garnish": "3 granos de café",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Espresso / café expreso",
+        "amount": "1 doble (frío)",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Preparar espresso y dejar enfriar.",
+      "En coctelera poner todos los ingredientes con bastante hielo. Agitar con fuerza 20-30 seg para que espume la superficie.",
+      "Colar doble en copa Martini fría."
+    ]
+  },
+  {
+    "name": "Margarita Clásica",
+    "base": "tequila",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "El cóctel de tequila por excelencia. Cítrico, salado en el borde y absolutamente adictivo.",
+    "garnish": "Borde de sal + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila reposado / añejo",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sal fina / sal gruesa",
+        "amount": "borde de copa",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Escarchar borde de copa con lima y sal.",
+      "En coctelera, añadir tequila, triple sec, lima y almíbar. Dry shake 10 seg, luego llenar con hielo y agitar 10-15 seg más.",
+      "Colar en copa con sal."
+    ]
+  },
+  {
+    "name": "Tequila Sunrise",
+    "base": "tequila",
+    "taste": [
+      "frutal",
+      "tropical"
+    ],
+    "glass": "vaso_alto",
+    "description": "El amanecer en un vaso. Tequila, naranja y el degradé rojizo de la granadina.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila reposado / añejo",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "80ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "chorrito",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Servir tequila en vaso alto. Añadir hielo hasta llenar. Sumar jugo de naranja.",
+      "Verter granadina despacio para el efecto amanecer. No mezclar."
+    ]
+  },
+  {
+    "name": "Baja Gold",
+    "base": "tequila",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "copa_martini",
+    "description": "Tequila con ananá y lima. Tropical, vibrante y elegante a la vez.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila reposado / añejo",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "12.5ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa con hielo y soda; descartar.",
+      "En coctelera, todos los ingredientes con hielo. Agitar fuerte 10 seg. Colar doble en copa fría."
+    ]
+  },
+  {
+    "name": "Margarita de Tommy",
+    "base": "tequila",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "La margarita en su versión más pura y honesta. Solo tequila, lima y dulzor.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": true,
+    "adaptation_note": "Sin néctar de agave — reemplazado por almíbar simple",
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila reposado / añejo",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, tequila, lima y almíbar con hielo. Agitar 10-15 seg.",
+      "Llenar vaso bajo con hielo fresco. Colar y decorar."
+    ]
+  },
+  {
+    "name": "Cuba Libre",
+    "base": "ron",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Ron añejo, cola y lima. El clásico que no necesita presentación.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "8 gajos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Cola",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Servir ron en vaso bajo. Exprimir gajos de lima directamente. Remover rápido.",
+      "Añadir hielo hasta arriba. Rellenar con cola."
+    ]
+  },
+  {
+    "name": "Fernet con Cola",
+    "base": "ron",
+    "taste": [
+      "amargo"
+    ],
+    "glass": "vaso_alto",
+    "description": "El aperitivo argentino por excelencia. Amargo, herbal e inconfundible.",
+    "garnish": "Rodaja de limón o naranja (opcional)",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Fernet",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Cola",
+        "amount": "150-200ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar vaso alto con hielo. Verter fernet. Completar con cola. Mezclar suavemente."
+    ]
+  },
+  {
+    "name": "Dark & Stormy",
+    "base": "ron",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron oscuro, ginger beer y lima. Potente, especiado y refrescante.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "4 cuartos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1.5 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ginger Beer",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar. Añadir ron y hielo. Agitar 10-15 seg.",
+      "Llenar vaso alto con hielo fresco y colar. Completar con ginger beer."
+    ]
+  },
+  {
+    "name": "Mojito",
+    "base": "ron",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron, menta fresca, lima y soda. El clásico cubano adaptado con ron añejo para más carácter.",
+    "garnish": "Ramita de menta + rodaja de lima deshidratada",
+    "is_adapted": true,
+    "adaptation_note": "Con ron añejo en lugar de ron blanco — sabor más robusto",
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "8-10 hojas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En vaso alto agregar ron, menta, almíbar y lima. Machacar suavemente la menta.",
+      "Añadir hielo picado y chorrito de soda. Mezclar bien.",
+      "Completar con más hielo picado. Golpear 2 ramitas de menta y colocar como decoración. Toque final de soda."
+    ]
+  },
+  {
+    "name": "Mojito Royal",
+    "base": "ron",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "copa_vino",
+    "description": "Mojito de fiesta. Con Gancia en lugar de champagne para un toque festivo más accesible.",
+    "garnish": "Ramita de menta + rodaja de lima deshidratada",
+    "is_adapted": true,
+    "adaptation_note": "Con ron añejo y Gancia en lugar de champagne",
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "40ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "30ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "3 hojas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Gancia / espumante",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En copa, colocar menta, azúcar y lima. Majar suavemente la menta.",
+      "Agregar ron y hielo. Completar con Gancia. Decorar con menta."
+    ]
+  },
+  {
+    "name": "Amanecer Caribeño",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron añejo con naranja y granadina. El Tequila Sunrise en versión caribeña.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "45ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar vaso alto con hielo. Verter ron y naranja sobre el hielo.",
+      "Agregar granadina despacio para el efecto sunrise. No mezclar."
+    ]
+  },
+  {
+    "name": "El Presidente",
+    "base": "ron",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "Cocktail cubano de los años 20. Ron añejo con vermut, triple sec y un toque de granadina.",
+    "garnish": "Twist de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Extra Dry (vermut seco)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "chorrito",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa; descartar. Llenar mezclador con hielo. Añadir todos los ingredientes.",
+      "Remover 20 seg. Colar en copa fría. Decorar con twist de naranja."
+    ]
+  },
+  {
+    "name": "Planter's Punch",
+    "base": "ron",
+    "taste": [
+      "tropical"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron tropical con lima, granadina y soda. Colorido, frutal y muy fácil de tomar.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": true,
+    "adaptation_note": "Sin bitters Angostura",
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "30ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "splash",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera con hielo, agregar ron, lima, granadina y almíbar. Agitar 10 seg.",
+      "Llenar vaso alto con hielo. Verter. Completar con soda. Remover suave."
+    ]
+  },
+  {
+    "name": "Pisco Sour",
+    "base": "pisco",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "El cóctel nacional peruano. Pisco, lima y almíbar con textura sedosa.",
+    "garnish": "Gajo de lima deshidratada",
+    "is_adapted": true,
+    "adaptation_note": "Sin bitters Angostura — agregar clara de huevo si se tiene para mejor textura",
+    "ingredients": [
+      {
+        "ingredient_name": "Pisco",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "25ml jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Clara de huevo",
+        "amount": "1",
+        "note": "opcional, para textura sedosa",
+        "required": false
+      }
+    ],
+    "steps": [
+      "Enfriar vaso; descartar. En coctelera, agregar pisco, almíbar, lima y clara.",
+      "Dry shake 10 seg. Añadir hielo y agitar 10 seg más.",
+      "Poner hielo fresco en vaso y colar."
+    ]
+  },
+  {
+    "name": "Caipiroska de Frambuesa",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "La caipiroska frutal por excelencia. Vodka, lima y frambuesas frescas machacadas.",
+    "garnish": "Frambuesas frescas + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frambuesas frescas",
+        "amount": "6-8 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar en vaso. Agregar frambuesas y aplastar un poco.",
+      "Verter vodka. Completar con hielo picado y remover."
+    ]
+  },
+  {
+    "name": "Caipiroska de Frutilla",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka, lima y frutillas frescas. Dulce, frutal y muy fotogénico.",
+    "garnish": "Frutilla fresca + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frutillas / fresas frescas",
+        "amount": "3-4 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar. Agregar frutillas troceadas y machacar más.",
+      "Verter vodka. Llenar con hielo picado."
+    ]
+  },
+  {
+    "name": "Caipiroska de Piña",
+    "base": "caipiroska",
+    "taste": [
+      "tropical",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka, lima y ananá fresca. Tropical y refrescante.",
+    "garnish": "Trozo de piña + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Piña / ananá fresca",
+        "amount": "3-4 cubitos",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner lima y azúcar en vaso. Machacar bien. Añadir piña y machacar un poco más.",
+      "Sumar vodka. Llenar con hielo picado."
+    ]
+  },
+  {
+    "name": "Caipiroska de Piña y Menta",
+    "base": "caipiroska",
+    "taste": [
+      "tropical",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "La combinación tropical refrescante. Piña y menta fresca se complementan a la perfección.",
+    "garnish": "Ramita de menta + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Piña / ananá fresca",
+        "amount": "3-4 cubitos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "4-5 hojas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima y azúcar. Añadir piña y menta, machacar suave.",
+      "Verter vodka. Llenar con hielo picado."
+    ]
+  },
+  {
+    "name": "Caipiroska de Limón",
+    "base": "caipiroska",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "La más simple y directa. Vodka con limón fresco machacado y azúcar.",
+    "garnish": "Rodaja de limón deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "1/2 limón",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar limón con azúcar en vaso. Añadir vodka. Llenar con hielo picado y remover bien."
+    ]
+  },
+  {
+    "name": "Caipiroska Frutos del Bosque",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka con frambuesas y frutillas. Frutal, colorido y lleno de sabor.",
+    "garnish": "Frambuesas y frutillas frescas",
+    "is_adapted": true,
+    "adaptation_note": "Con frutillas y frambuesas (sin moras ni arándanos azules)",
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frambuesas frescas",
+        "amount": "2-3 unidades",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frutillas / fresas frescas",
+        "amount": "2 trocitos",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar. Añadir todos los frutos rojos y machacar suave.",
+      "Verter vodka. Llenar con hielo picado."
+    ]
+  },
+  {
+    "name": "GT Clásico",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "El gin tonic de siempre, ejecutado a la perfección.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "rodaja",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa balón con hielo; descartar agua. Llenar copa con hielo hasta arriba. Añadir gin.",
+      "Completar con tónica despacio. Mezclar suave con cuchara. Colocar lima dentro."
+    ]
+  },
+  {
+    "name": "GT Frambuesa y Menta",
+    "base": "gin_tonics",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_balon",
+    "description": "Gin tonic frutal y aromático. Las frambuesas y la menta transforman el clásico.",
+    "garnish": "Frambuesas frescas + ramita de menta",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frambuesas frescas",
+        "amount": "2-3 unidades",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "1 ramita",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo. Colocar frambuesas.",
+      "Añadir gin y menta (aplaudir la ramita antes). Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Naranja y Canela",
+    "base": "gin_tonics",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "Gin tonic cálido y especiado. La canela y la naranja le dan una personalidad única.",
+    "garnish": "Piel de naranja + rama de canela",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Naranja fresca",
+        "amount": "tira de piel",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Canela en rama",
+        "amount": "1 rama",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y añadir hielo. Verter gin.",
+      "Agregar piel de naranja (torcer para liberar aceites) y la canela. Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Romero y Pepino",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "copa_balon",
+    "description": "Gin tonic botánico y refrescante. El pepino contra el vidrio y el romero son visualmente espectaculares.",
+    "garnish": "Ramita de romero + rodajas de pepino",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Romero fresco",
+        "amount": "1 ramita",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pepino",
+        "amount": "1-2 rodajas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo. Colocar rodajas de pepino contra el vidrio.",
+      "Añadir gin y romero. Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Pimienta y Naranja",
+    "base": "gin_tonics",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "Gin tonic especiado con un toque cítrico. La pimienta aplastada libera aromas intensos.",
+    "garnish": "Piel de naranja + granos de pimienta",
+    "is_adapted": true,
+    "adaptation_note": "Con naranja en lugar de pomelo",
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pimienta negra en granos",
+        "amount": "2-3 granos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Naranja fresca",
+        "amount": "tira de piel",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Aplastar granos de pimienta con dorso de cuchara. Enfriar copa y llenar con hielo.",
+      "Añadir gin y pimienta. Exprimir piel de naranja sobre copa y colocarla dentro. Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "Mint Tonic",
+    "base": "mocktail",
+    "taste": [
+      "fresco",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "Menta fresca, lima y tónica. El mocktail más refrescante de la noche.",
+    "garnish": "Hojas de menta + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "4 hojas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "1cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "6cl jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En vaso alto, poner menta y almíbar. Aplastar menta suavemente.",
+      "Añadir hielo y jugo de lima. Remover. Rellenar con tónica. Decorar."
+    ]
+  },
+  {
+    "name": "Shirley Temple",
+    "base": "mocktail",
+    "taste": [
+      "frutal",
+      "fresco",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "El mocktail clásico americano. Granadina, cítricos y soda para un color vibrante.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Granadina",
+        "amount": "3cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "1 cda jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1 cda jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "9cl",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Colocar 3 cubitos de hielo en vaso. Añadir granadina, limón y lima.",
+      "Sumar soda y mezclar bien."
+    ]
+  },
+  {
+    "name": "Fresh Up Exótico",
+    "base": "mocktail",
+    "taste": [
+      "tropical",
+      "frutal",
+      "sin_alcohol"
+    ],
+    "glass": "copa_vino",
+    "description": "Jugo de ananá, naranja y granadina con agua mineral. Tropical, sin alcohol y muy elegante en copa.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "jugo de 2 rodajas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "10cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "2cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Agua mineral con gas",
+        "amount": "completar",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Mezclar jugo de ananá, naranja y granadina en jarra. Repartir en copas.",
+      "Completar con agua mineral fría. Remover suave."
+    ]
+  },
+  {
+    "name": "Scarlett Dream",
+    "base": "mocktail",
+    "taste": [
+      "frutal",
+      "sin_alcohol"
+    ],
+    "glass": "copa_martini",
+    "description": "Copa escarchada con granadina, lima y frambuesas. Visual impactante y sabor frutal.",
+    "garnish": "Frambuesas frescas + menta + copa escarchada con granadina y azúcar",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "2 cdas jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1 cda",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "1cl + extra para escarchar",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frambuesas frescas",
+        "amount": "para decorar",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "ramita",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Escarchar copas con granadina y azúcar.",
+      "Mezclar lima, azúcar y granadina hasta disolver. Pasar a coctelera con hielo, añadir soda y agitar.",
+      "Verter en copas escarchadas. Decorar con frambuesas y menta."
+    ]
+  },
+  {
+    "name": "Banana Summer",
+    "base": "mocktail",
+    "taste": [
+      "tropical",
+      "frutal",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "Batido tropical sin alcohol. Plátano, leche y piña mezclados con hielo picado para una textura cremosa.",
+    "garnish": "Rodaja de limón en el borde",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Plátano / banana",
+        "amount": "1/2",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jarabe de plátano",
+        "amount": "golpe",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Leche",
+        "amount": "6cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "6cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1 cdta jugo",
+        "note": "o limón",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Triturar el plátano en licuadora hasta que no queden trozos.",
+      "Añadir jarabe de plátano, leche, jugo de piña y jugo de lima.",
+      "Incorporar hielo picado y triturar hasta textura homogénea y fría.",
+      "Servir en vaso y decorar con rodaja de limón."
+    ]
+  },
+  {
+    "name": "San Francisco",
+    "base": "mocktail",
+    "taste": [
+      "tropical",
+      "frutal",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "Cinco jugos combinados con granadina. Colorido, vitamínico y lleno de sabor tropical.",
+    "garnish": "Rodaja de naranja deshidratada + cereza al marrasquino",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "15cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "3cl jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "6cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de durazno / melocotón",
+        "amount": "3cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "3cl",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera con hielo, añadir naranja, limón, piña, melocotón y granadina.",
+      "Agitar enérgicamente hasta que esté bien frío.",
+      "Llenar vaso con hielo y colar. Decorar con rodaja de naranja y cereza."
+    ]
+  },
+  {
+    "name": "Tropical Love",
+    "base": "mocktail",
+    "taste": [
+      "tropical",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "Maracuyá y cereza con tónica. Un mocktail exótico y elegante para quienes no toman alcohol.",
+    "garnish": "Rodaja de piña o flores comestibles",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo / néctar de maracuyá",
+        "amount": "5cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Néctar de cereza",
+        "amount": "3cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "2cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, combinar maracuyá, cereza y piña. Agitar bien.",
+      "Servir en vaso. Completar con tónica bien fría.",
+      "Remover suave para no perder gas."
+    ]
+  },
+  {
+    "name": "Apricot Fizz",
+    "base": "mocktail",
+    "taste": [
+      "frutal",
+      "fresco",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "Jugo de albaricoque con cítricos, almendra y soda. Ligero, floral y muy refrescante.",
+    "garnish": "Rodaja de naranja deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo de albaricoque",
+        "amount": "6cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "2cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "2cl jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jarabe de almendra",
+        "amount": "1cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera con hielo, añadir albaricoque, naranja, limón y jarabe de almendra.",
+      "Agitar bien. Colar en vaso con hielo.",
+      "Rellenar con soda y mezclar suave."
+    ]
+  },
+  {
+    "name": "Kiwi Mint",
+    "base": "mocktail",
+    "taste": [
+      "frutal",
+      "fresco",
+      "sin_alcohol"
+    ],
+    "glass": "copa_vino",
+    "description": "Puré de kiwi con menta picada y agua mineral. Verde brillante, fresco y lleno de vitamina C.",
+    "garnish": "Hojas de menta + pellizco de canela",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Kiwi fresco",
+        "amount": "1 kiwi pelado",
+        "note": "por porción",
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "5-6 hojas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Agua mineral con gas",
+        "amount": "completar",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Canela en rama",
+        "amount": "pellizco molido",
+        "note": "para decorar",
+        "required": false
+      }
+    ],
+    "steps": [
+      "Triturar kiwi en licuadora hasta puré fino. Colar para eliminar fibras.",
+      "Picar menta muy fina y mezclar con el puré.",
+      "Repartir en copas. Rellenar con agua mineral con gas bien fría.",
+      "Decorar con hojas de menta y espolvorear canela."
+    ]
+  },
+  {
+    "name": "Daiquiri de Sandía sin Alcohol",
+    "base": "mocktail",
+    "taste": [
+      "frutal",
+      "fresco",
+      "sin_alcohol"
+    ],
+    "glass": "copa_martini",
+    "description": "La textura del daiquiri clásico, sin alcohol. Sandía y uva blanca con efecto granizado.",
+    "garnish": "Cuñas de sandía en el borde",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Pulpa de sandía",
+        "amount": "200g",
+        "note": "2 porciones",
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de uva blanca",
+        "amount": "10cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "4 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "4 cdas jugo",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Cortar sandía en dados, retirar pepitas.",
+      "Licuar sandía con jugo de uva, almíbar y limón hasta mezcla homogénea.",
+      "Añadir hielo picado y triturar para efecto granizado.",
+      "Servir en copas de cóctel bien frías."
+    ]
+  },
+  {
+    "name": "Sex on the Beach Virgen",
+    "base": "mocktail",
+    "taste": [
+      "tropical",
+      "frutal",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "La versión sin alcohol del clásico: piña, naranja y melocotón con un toque de lima.",
+    "garnish": "Trozo de piña + cerezas al marrasquino",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Néctar de melocotón",
+        "amount": "3cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "9cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "9cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "golpe de jugo",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera con hielo, añadir melocotón, piña, naranja y lima.",
+      "Agitar enérgicamente hasta que esté bien frío.",
+      "Llenar vaso alto con hielo y verter la mezcla."
+    ]
+  },
+  {
+    "name": "Joger",
+    "base": "mocktail",
+    "taste": [
+      "frutal",
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "Plátano y naranja con almendra y nata. Un mocktail cremoso y reconfortante.",
+    "garnish": "Ramita de menta fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "6cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Plátano / banana",
+        "amount": "1/2",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jarabe de almendra",
+        "amount": "4cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "3cl jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema de leche / nata líquida",
+        "amount": "2cl",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Triturar el plátano en licuadora hasta que no queden trozos.",
+      "Pasar a coctelera. Añadir naranja, limón, almendra y nata.",
+      "Agitar enérgicamente. Servir en vaso alto.",
+      "Decorar con ramita de menta."
+    ]
+  },
+  {
+    "name": "Bloody Mary sin Alcohol",
+    "base": "mocktail",
+    "taste": [
+      "sin_alcohol"
+    ],
+    "glass": "vaso_alto",
+    "description": "El clásico del brunch sin vodka. Picante, umami y perfectamente condimentado con apio.",
+    "garnish": "Ramita de apio",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo de tomate",
+        "amount": "2dl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "1cl jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Agua mineral con gas",
+        "amount": "2cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Salsa Worcestershire / inglesa",
+        "amount": "2 golpes",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tabasco",
+        "amount": "2 golpes",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pimienta negra molida",
+        "amount": "al gusto",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sal fina / sal gruesa",
+        "amount": "al gusto",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Apio",
+        "amount": "1 ramita",
+        "note": "para decorar",
+        "required": false
+      }
+    ],
+    "steps": [
+      "Poner hielo en coctelera. Añadir agua con gas y limón. Agitar.",
+      "Incorporar jugo de tomate.",
+      "Condimentar con sal, pimienta, tabasco y Worcestershire al gusto. Mezclar bien.",
+      "Llenar vaso alto con hielo. Servir y decorar con apio."
+    ]
+  },
+  {
+    "name": "Little Pink Pearl",
+    "base": "mocktail",
+    "taste": [
+      "fresco",
+      "sin_alcohol"
+    ],
+    "glass": "copa_martini",
+    "description": "Lima, pomelo rosa y horchata. Delicado, rosado y sorprendentemente cremoso en copa.",
+    "garnish": "Rodaja de pomelo rosado en el borde",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "3cl jugo",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de pomelo rosado",
+        "amount": "6cl",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Horchata",
+        "amount": "1 cda",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En coctelera, combinar jugo de lima, pomelo rosa y horchata.",
+      "Llenar con hielo y agitar con fuerza.",
+      "Colar en copa de cóctel fría.",
+      "Decorar con rodaja de pomelo rosado."
+    ]
+  },
+  {
+    "name": "GT Morrón Amarillo y Menta",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "copa_balon",
+    "description": "El morrón amarillo entre el vidrio y el hielo enmarca la menta aplaudida. Visual y aromático.",
+    "garnish": "Rodaja de morrón amarillo + hoja de menta",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pimiento / morrón amarillo",
+        "amount": "1 rodaja fina",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "1 hoja",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa balón y llenar con hielo.",
+      "Colocar rodaja de morrón amarillo entre el vidrio y el hielo.",
+      "Aplaudir la hoja de menta y colocarla dentro del morrón a modo decorativo.",
+      "Verter gin. Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Pimienta y Pomelo",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "copa_balon",
+    "description": "Pimienta aplastada y piel de pomelo: más amargo e intenso que la versión con naranja.",
+    "garnish": "Piel de pomelo + granos de pimienta",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pimienta negra en granos",
+        "amount": "2-3 granos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pomelo fresco",
+        "amount": "1 tira de piel",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Aplastar granos de pimienta con el dorso de una cuchara.",
+      "Enfriar copa y llenar con hielo. Añadir gin y pimienta.",
+      "Exprimir piel de pomelo sobre la copa para soltar aceites. Colocarla dentro.",
+      "Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Romero y Pomelo",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "copa_balon",
+    "description": "Romero y pomelo: botánico y cítrico amargo. Se puede quemar levemente la punta del romero para un toque ahumado.",
+    "garnish": "Ramita de romero + rodaja de pomelo",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Romero fresco",
+        "amount": "1 ramita",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pomelo fresco",
+        "amount": "1 rodaja",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa balón y llenar con hielo.",
+      "Colocar rodaja de pomelo dentro de la copa.",
+      "Añadir gin y ramita de romero.",
+      "Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Bayas de Enebro y Limón",
+    "base": "gin_tonics",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "El gin tonic más botánico. Las bayas de enebro refuerzan los aromas propios del gin.",
+    "garnish": "Bayas de enebro + tira de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": "estilo dry",
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Bayas de enebro",
+        "amount": "3-5 unidades",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Limón fresco",
+        "amount": "1 tira de piel",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Añadir gin y bayas de enebro (aplastar un poco para liberar más aroma).",
+      "Exprimir piel de limón sobre la copa y colocarla dentro.",
+      "Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Jengibre y Mandarina",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "copa_balon",
+    "description": "El picor del jengibre y la dulzura de la mandarina en perfecta tensión. Vivaz y aromático.",
+    "garnish": "Gajos de mandarina + rodajitas de jengibre",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jengibre fresco",
+        "amount": "2-3 rodajitas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Mandarina fresca",
+        "amount": "2-3 gajos",
+        "note": "sin semillas",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Añadir gin, jengibre y gajos de mandarina.",
+      "Completar con tónica. Mezclar suave para integrar el picor y la dulzura."
+    ]
+  },
+  {
+    "name": "GT Anís Estrellado y Arándanos",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "copa_balon",
+    "description": "El anís aporta profundidad y los arándanos color morado intenso. Sorprendente y muy fotogénico.",
+    "garnish": "Estrellas de anís + arándanos frescos",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Anís estrellado",
+        "amount": "1-2 estrellas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Arándanos azules (blueberries)",
+        "amount": "5-6 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Verter gin. Añadir estrellas de anís y arándanos.",
+      "Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Tomillo y Lima",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "copa_balon",
+    "description": "El tomillo es intenso: una sola ramita transforma por completo el gin tonic. Para los que buscan algo diferente.",
+    "garnish": "Ramita de tomillo + gajos de lima",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tomillo fresco",
+        "amount": "1 ramita pequeña",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "2 gajos",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Añadir gin, gajos de lima y tomillo.",
+      "Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Gibson Tonic",
+    "base": "gin_tonics",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "El Gibson en versión tónica. Los cebollines encurtidos pinchados en palillo son su seña de identidad savory.",
+    "garnish": "3 cebollines encurtidos en palillo",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Cebollines / cebollitas encurtidas",
+        "amount": "3 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Verter gin. Añadir los cebollines encurtidos (en palillo).",
+      "Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Albahaca y Aceituna",
+    "base": "gin_tonics",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "El gin tonic más savory. Albahaca aplaudida y aceituna verde lo convierten en un aperitivo único.",
+    "garnish": "Aceituna verde en palillo + hojas de albahaca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Albahaca fresca",
+        "amount": "2-3 hojas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Aceituna verde",
+        "amount": "1 unidad",
+        "note": "sin carozo",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Verter gin. Aplaudir la albahaca y colocarla dentro.",
+      "Añadir aceituna (en palillo opcional). Completar con tónica. Mezclar suave."
+    ]
+  },
+  {
+    "name": "GT Manzanilla",
+    "base": "gin_tonics",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "Las flores de manzanilla perfuman el gin tonic durante el reposo. Delicado, floral y muy aromático.",
+    "garnish": "Flores de manzanilla",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tónica",
+        "amount": "120ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Flores de manzanilla seca",
+        "amount": "2-3 flores",
+        "note": "o 1 cdta seca en infusor",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar copa y llenar con hielo.",
+      "Verter gin. Añadir las flores de manzanilla.",
+      "Completar con tónica. Mezclar suave.",
+      "Dejar reposar 1 minuto para que la manzanilla perfume el trago."
+    ]
+  },
+  {
+    "name": "Caipiroska de Arándanos",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Arándanos azules machacados con lima y vodka. Color intenso, sabor agridulce.",
+    "garnish": "Arándanos azules + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Arándanos azules (blueberries)",
+        "amount": "8-10 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar en vaso bajo.",
+      "Añadir arándanos y aplastar un poco.",
+      "Verter vodka. Llenar con hielo picado y remover."
+    ]
+  },
+  {
+    "name": "Caipiroska de Mango",
+    "base": "caipiroska",
+    "taste": [
+      "tropical",
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Mango maduro, lima y vodka. Tropical, dulce y con un color espectacular.",
+    "garnish": "Cubo de mango + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Mango fresco",
+        "amount": "3-4 cubos",
+        "note": "maduro",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Agregar mango y aplastar.",
+      "Verter vodka. Llenar con hielo picado y remover."
+    ]
+  },
+  {
+    "name": "Caipiroska de Pepino y Jalapeño",
+    "base": "caipiroska",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "El contraste refrescante del pepino con el picante del jalapeño. Para los que buscan algo fuera de lo común.",
+    "garnish": "Rodaja de pepino + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Pepino",
+        "amount": "3-4 rodajas finas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jalapeño",
+        "amount": "1-2 rodajitas",
+        "note": "sin semillas para menos picante",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar en vaso.",
+      "Añadir pepino y jalapeño. Machacar suavemente.",
+      "Verter vodka. Llenar con hielo picado y probar el picante."
+    ]
+  },
+  {
+    "name": "Caipiroska de Jengibre e Higo",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Higo fresco y jengibre: dulzura otoñal con toque picante. Una combinación poco convencional que sorprende.",
+    "garnish": "Trozos de higo + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Higo fresco",
+        "amount": "1 higo en trozos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jengibre fresco",
+        "amount": "3-4 rodajitas finas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Añadir higo y jengibre. Machacar suavemente.",
+      "Verter vodka. Completar con hielo picado y mezclar."
+    ]
+  },
+  {
+    "name": "Caipiroska de Guayaba",
+    "base": "caipiroska",
+    "taste": [
+      "tropical",
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Guayaba madura y lima machacadas con vodka. Exótica, aromática y tropical.",
+    "garnish": "Trozos de guayaba + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Guayaba",
+        "amount": "3-4 trozos",
+        "note": "madura, sin semillas grandes",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Sumar guayaba troceada y aplastar.",
+      "Añadir vodka. Llenar con hielo picado y remover."
+    ]
+  },
+  {
+    "name": "Caipiroska de Uvas Blancas",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Uvas blancas sin semillas machacadas con lima. Dulce, jugosa y muy fácil de tomar.",
+    "garnish": "Uvas blancas + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Uvas blancas sin semillas",
+        "amount": "8-10 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima y azúcar.",
+      "Agregar uvas y aplastar suavemente.",
+      "Verter vodka. Completar con hielo picado y mezclar."
+    ]
+  },
+  {
+    "name": "Caipiroska de Kiwi",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Kiwi verde y vodka con lima. Ácido, jugoso y con un color vibrante.",
+    "garnish": "Rodaja de kiwi + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Kiwi fresco",
+        "amount": "1 kiwi pelado",
+        "note": "en rodajas o cubitos",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Sumar kiwi y aplastar suavemente.",
+      "Verter vodka. Llenar con hielo picado y mezclar."
+    ]
+  },
+  {
+    "name": "Caipiroska de Maracuyá",
+    "base": "caipiroska",
+    "taste": [
+      "tropical",
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Pulpa de maracuyá con lima y vodka. Ácida, aromática y completamente tropical.",
+    "garnish": "Media maracuyá + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Puré / pulpa de maracuyá",
+        "amount": "pulpa de 1/2 maracuyá",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Añadir pulpa de maracuyá y mezclar.",
+      "Sumar vodka. Llenar con hielo picado y remover."
+    ]
+  },
+  {
+    "name": "Caipiroska de Uva Roja",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Uvas rojas machacadas con lima y vodka. Color profundo y sabor dulce intenso.",
+    "garnish": "Uvas rojas + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Uvas rojas sin semillas",
+        "amount": "8-10 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima y azúcar.",
+      "Añadir uvas y aplastar suavemente.",
+      "Verter vodka. Llenar con hielo picado y mezclar."
+    ]
+  },
+  {
+    "name": "Caipiroska de Sake",
+    "base": "caipiroska",
+    "taste": [
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Fusión japonesa: el sake suaviza el vodka y aporta notas delicadas y fermentadas.",
+    "garnish": "Rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "30ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sake",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar en vaso.",
+      "Añadir vodka y sake.",
+      "Llenar con hielo picado y mezclar bien."
+    ]
+  },
+  {
+    "name": "Caipiroska de Fresa y Albahaca",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Fresas frescas con albahaca aromática. El contraste herbáceo-frutal sobre vodka y lima funciona sorprendentemente bien.",
+    "garnish": "Fresa fresca + hojas de albahaca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Frutillas / fresas frescas",
+        "amount": "3-4 trozos",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Albahaca fresca",
+        "amount": "3-4 hojas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima y azúcar.",
+      "Sumar fresas y albahaca. Machacar suavemente.",
+      "Verter vodka. Llenar con hielo picado y remover."
+    ]
+  },
+  {
+    "name": "Caipiroska de Uva Dulce con Vino",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "El vino blanco dulce y las uvas rojas elevan la caipiroska a otra categoría. Sofisticada y frutal.",
+    "garnish": "Uvas rojas + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "30-35ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Vino blanco dulce",
+        "amount": "15-20ml",
+        "note": "Sauternes o similar",
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Uvas rojas sin semillas",
+        "amount": "6-8 unidades",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Añadir uvas y aplastar.",
+      "Verter vodka y vino dulce.",
+      "Llenar con hielo picado y mezclar."
+    ]
+  },
+  {
+    "name": "Caipiroska de Mandarina",
+    "base": "caipiroska",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Mandarina machacada en lugar de lima. Más dulce y aromática que la caipiroska clásica.",
+    "garnish": "Gajos de mandarina + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40-50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Mandarina fresca",
+        "amount": "1 mandarina en gajos",
+        "note": "pelada, sin semillas",
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "chorrito",
+        "note": "opcional, para equilibrar",
+        "required": false
+      }
+    ],
+    "steps": [
+      "Machacar gajos de mandarina con azúcar en vaso.",
+      "Añadir vodka (y chorrito de lima si se usa).",
+      "Llenar con hielo picado y mezclar bien."
+    ]
+  },
+  {
+    "name": "Caipiroska Tropical",
+    "base": "caipiroska",
+    "taste": [
+      "tropical",
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka con licor de coco y piña fresca. Una caipiroska que te lleva directo al Caribe.",
+    "garnish": "Trozo de piña + rodaja de lima deshidratada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "30-35ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de coco (Malibu)",
+        "amount": "15-20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Piña / ananá fresca",
+        "amount": "3-4 cubitos",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Machacar lima con azúcar.",
+      "Añadir cubos de piña y aplastar.",
+      "Verter vodka y licor de coco.",
+      "Llenar con hielo picado y mezclar."
+    ]
+  },
+  {
+    "name": "Estrella Porno Martini",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "tropical"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka con sirope de maracuyá, jugo de piña y almíbar. Un martini tropical con mucho carácter.",
+    "garnish": "Mitad de maracuyá fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de maracuyá",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Poner el vodka, el sirope de maracuyá, el jugo de ananá y el almíbar en una coctelera con hielo.",
+      "Agitar enérgicamente unos 10 segundos hasta que esté bien frío.",
+      "Colar en una copa de cóctel fría.",
+      "Decorar con media maracuyá fresca apoyada sobre la superficie."
+    ]
+  },
+  {
+    "name": "Baquetas de Discoteca",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Vodka con sirope de vainilla, Chambord y limonada blanca. Dulce, burbujeante y festivo.",
+    "garnish": "Frambuesas frescas",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de vainilla",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Licor de frambuesa negra (Chambord)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Gaseosa tipo limonada blanca",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, añadir el vodka, el sirope de vainilla y el Chambord con hielo.",
+      "Agitar unos 10 segundos y colar en un vaso alto con cubos de hielo.",
+      "Completar con la limonada blanca y servir."
+    ]
+  },
+  {
+    "name": "Martini Francés",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka, Chambord y jugo de piña. Un clásico elegante con toque de frambuesa negra.",
+    "garnish": "3 frambuesas frescas",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de frambuesa negra (Chambord)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "75ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera con hielo, añadir el vodka, el Chambord y el jugo de ananá.",
+      "Agitar bien hasta que esté frío y ligeramente espumoso.",
+      "Colar en una copa de cóctel fría y decorar con frambuesas."
+    ]
+  },
+  {
+    "name": "Cosmo Chicle",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka con sirope de chicle, triple sec y arándano. Un cosmopolitan con alma de años 90.",
+    "garnish": "Trozo de chicle en palillo",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de chicle / bubblegum",
+        "amount": "35ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "75ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner el vodka, el triple sec, el sirope de chicle y el jugo de arándano en una coctelera con hielo.",
+      "Agitar unos 10 segundos y colar en una copa de cóctel fría.",
+      "Decorar con un trozo de chicle en palillo."
+    ]
+  },
+  {
+    "name": "Lady Awaits",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka de frambuesa, gin rosado, granadina y limón. Un cóctel elegante con color rosa intenso.",
+    "garnish": "Tira de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka de frambuesa",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Gin rosado",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, agregar el vodka de frambuesa, el gin rosado, la granadina y el jugo de limón con hielo.",
+      "Agitar enérgicamente hasta que esté bien frío.",
+      "Colar en una copa de cóctel y decorar con una tira de piel de limón."
+    ]
+  },
+  {
+    "name": "Ruso Blanco",
+    "base": "vodka",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka, licor de café, crema y leche. El hermano más cremoso del Ruso Negro.",
+    "garnish": "Grano de café",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema de leche / nata líquida",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Leche",
+        "amount": "15ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Verter el licor de café directamente en un vaso bajo con hielo.",
+      "Agitar el vodka con la crema y la leche en coctelera con hielo durante 10-15 segundos.",
+      "Servir la mezcla suavemente sobre el licor de café.",
+      "Espolvorear cacao si se desea y decorar con un grano de café."
+    ]
+  },
+  {
+    "name": "Appletini",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka, licor de manzana y triple sec. El martini de manzana favorito de los 2000.",
+    "garnish": "Rodaja fina de manzana",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "40ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de manzana (Apple Schnapps)",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Colocar vodka, licor de manzana y triple sec en una coctelera con hielo.",
+      "Agitar bien hasta que esté muy frío.",
+      "Colar en una copa de cóctel fría y decorar con una rodaja de manzana."
+    ]
+  },
+  {
+    "name": "Berry Nice",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Vodka de frambuesa, licor de frambuesa negra, limón, moras y ginger beer. Una bomba de frutos rojos.",
+    "garnish": "Mora fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka de frambuesa",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de frambuesa negra (Chambord)",
+        "amount": "5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Moras (blackberries)",
+        "amount": "8 unidades",
+        "note": "majar",
+        "required": false
+      },
+      {
+        "ingredient_name": "Ginger Beer",
+        "amount": "para completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En la coctelera, majar las moras con el vodka de frambuesa.",
+      "Añadir el Chambord, el jugo de limón y abundante hielo. Agitar fuerte.",
+      "Colar en un vaso alto lleno de hielo fresco.",
+      "Completar con ginger beer y decorar con una mora."
+    ]
+  },
+  {
+    "name": "Ruso Ciego",
+    "base": "vodka",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka, licor de café y crema irlandesa. La versión enriquecida del Ruso Negro.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de crema irlandesa (Baileys)",
+        "amount": "30ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso bajo con hielo en cubos.",
+      "Verter el licor de café y el vodka sobre el hielo.",
+      "Flotar el Baileys por encima vertiendo despacio sobre el dorso de una cuchara.",
+      "Mezclar suavemente y servir."
+    ]
+  },
+  {
+    "name": "Blackberry Mule",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Vodka, licor de mora, lima, moras y ginger beer con un dash de bitters. Un Moscow Mule frutal.",
+    "garnish": "Mora fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de mora (Crème de Mure)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Moras (blackberries)",
+        "amount": "6 unidades",
+        "note": "majar 5, 1 para decorar",
+        "required": false
+      },
+      {
+        "ingredient_name": "Bitters aromáticos",
+        "amount": "1 dash",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Ginger Beer",
+        "amount": "para completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Majar 5 moras con el jugo de lima en un vaso alto.",
+      "Añadir el vodka, el licor de mora, el dash de bitters y hielo. Remover bien.",
+      "Completar con ginger beer.",
+      "Añadir más hielo si hace falta y decorar con la mora restante."
+    ]
+  },
+  {
+    "name": "Bloody Mary",
+    "base": "vodka",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "vaso_alto",
+    "description": "Vodka con pimienta, jugo de tomate, Tabasco y Worcestershire. El clásico trago salado y especiado.",
+    "garnish": "Rodajas de pepino, pizca de pimienta",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka con pimienta",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de tomate",
+        "amount": "35ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Salsa Worcestershire / inglesa",
+        "amount": "6 chorros",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tabasco",
+        "amount": "al gusto",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "15ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Vino tinto",
+        "amount": "splash",
+        "note": "flotar encima",
+        "required": false
+      },
+      {
+        "ingredient_name": "Sal fina / sal gruesa",
+        "amount": "al gusto",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Pimienta negra molida",
+        "amount": "al gusto",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Pepino",
+        "amount": "3 rodajas",
+        "note": "para decorar",
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una coctelera, poner el vodka, el jugo de tomate, el jugo de limón, el vermut, el Worcestershire y el Tabasco.",
+      "Agregar hielo y 'rodar' la mezcla (inclinar y girar suavemente) 15 segundos.",
+      "Ajustar sal, pimienta y picante al gusto.",
+      "Llenar un vaso alto con hielo fresco y colar la mezcla dentro.",
+      "Flotar un splash de vino tinto encima y decorar con rodajas de pepino."
+    ]
+  },
+  {
+    "name": "¿Dónde está mi Mantini?",
+    "base": "vodka",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka, Malibu, sirope de maracuyá y jugo de piña. Un martini tropical e irresistible.",
+    "garnish": "Hoja de piña o maracuyá fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de coco (Malibu)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de maracuyá",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, agregar el vodka, el Malibu, el sirope de maracuyá y el jugo de ananá.",
+      "Añadir hielo y agitar durante unos 10 segundos.",
+      "Colar en una copa de cóctel fría y servir."
+    ]
+  },
+  {
+    "name": "¡Guau!",
+    "base": "vodka",
+    "taste": [
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Licor de durazno, vodka y jugo de arándano. Simple, frutal y refrescante.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Licor de durazno (Peach Schnapps)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "90ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso alto con cubos de hielo.",
+      "Verter el licor de durazno, el vodka y el jugo de arándano sobre el hielo.",
+      "Remover con cuchara unos 15 segundos y servir."
+    ]
+  },
+  {
+    "name": "Bramble",
+    "base": "gin",
+    "taste": [
+      "frutal",
+      "amargo"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Gin, limón y almíbar sobre hielo picado con Crème de Mure en cascada. Un clásico moderno de los 80.",
+    "garnish": "Mora fresca + rodaja de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de mora (Crème de Mure)",
+        "amount": "10ml",
+        "note": "verter al final en cascada",
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Agitar el gin, el jugo de limón y el almíbar con hielo durante 10 segundos.",
+      "Llenar un vaso bajo con hielo picado.",
+      "Colar la mezcla sobre el hielo picado.",
+      "Verter el Crème de Mure lentamente por encima, dejando que caiga en cascada.",
+      "Decorar con una mora y rodajas de limón."
+    ]
+  },
+  {
+    "name": "Negroni",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Partes iguales de gin, Campari y vermut rojo. El aperitivo italiano por excelencia.",
+    "garnish": "Piel de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Campari",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso mezclador con hielo.",
+      "Añadir el gin, el vermut rojo y el Campari.",
+      "Remover con cuchara de bar durante 20 segundos.",
+      "Colar en un vaso bajo con hielo fresco.",
+      "Exprimir una piel de naranja sobre el cóctel y dejarla dentro."
+    ]
+  },
+  {
+    "name": "Novia Burbujeante",
+    "base": "gin",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "copa_vino",
+    "description": "Gin, St-Germain y limón completado con Prosecco. Elegante y floral.",
+    "garnish": "Twist de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "St-Germain (licor flor de saúco)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Prosecco / Champagne / espumante seco",
+        "amount": "para completar",
+        "note": "bien frío",
+        "required": true
+      }
+    ],
+    "steps": [
+      "Servir el gin, el St-Germain y el jugo de limón en una copa y remover suavemente.",
+      "Completar con Prosecco frío vertiendo con cuidado.",
+      "Decorar con un twist de piel de limón."
+    ]
+  },
+  {
+    "name": "Singapur Sling",
+    "base": "gin",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Gin, Cherry Heering, Benedictine, limón y bitters terminado con soda. Clásico del Raffles Hotel.",
+    "garnish": "Rodaja de limón + cereza",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de cereza (Cherry Heering)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Benedictine",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Bitters de naranja",
+        "amount": "2 dashes",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Amargos Angostura",
+        "amount": "2 dashes",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "splash",
+        "note": "para completar",
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una coctelera, colocar el gin, el Cherry Heering, el Benedictine, el jugo de limón y los bitters.",
+      "Añadir hielo y agitar enérgicamente 10 segundos.",
+      "Colar en un vaso alto con hielo fresco.",
+      "Completar con un toque de soda y decorar con rodaja de limón."
+    ]
+  },
+  {
+    "name": "Club Trébol",
+    "base": "gin",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Gin, limón, vermut dulce, sirope de frambuesa y clara de huevo. Suave, afrutado y con hermosa espuma rosada.",
+    "garnish": "Frambuesa fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de frambuesa",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Clara de huevo",
+        "amount": "1 unidad",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Poner todos los ingredientes en coctelera y agitar en seco (sin hielo) 5 segundos.",
+      "Añadir hielo y agitar fuerte 15 segundos más.",
+      "Colar en una copa coupe bien fría.",
+      "Servir con la espuma rosa arriba."
+    ]
+  },
+  {
+    "name": "Ramos Gin Fizz",
+    "base": "gin",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "vaso_alto",
+    "description": "Gin, crema, clara, cítricos, almíbar y agua de azahar. El fizz más cremoso y laborioso de la historia.",
+    "garnish": "Twist de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema doble (nata espesa)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Clara de huevo",
+        "amount": "1 unidad",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "20ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Agua de azahar",
+        "amount": "4 gotas",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "splash",
+        "note": "en el fondo del vaso",
+        "required": false
+      }
+    ],
+    "steps": [
+      "Colocar en la coctelera el gin, la crema, la clara, los cítricos, el almíbar y el agua de azahar.",
+      "Agitar en seco (sin hielo) 5 segundos para emulsionar.",
+      "Añadir hielo y agitar 1-4 minutos hasta que quede espeso y aireado.",
+      "Poner un chorrito de soda en el fondo de un vaso alto.",
+      "Colar la mezcla dos veces dentro del vaso y decorar con piel de limón."
+    ]
+  },
+  {
+    "name": "Martini de Desayuno",
+    "base": "gin",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "copa_martini",
+    "description": "Gin, triple sec, limón, almíbar y mermelada de naranja. Un martini sorprendente con sabor a tostada.",
+    "garnish": "Piel de limón flameada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "45ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Mermelada de naranja",
+        "amount": "1 cda colmada",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Mezclar la mermelada con el gin hasta disolverla bien.",
+      "Añadir el triple sec, el jugo de limón, el almíbar y bastante hielo.",
+      "Agitar enérgicamente hasta que esté muy frío.",
+      "Colar finamente (doble colado) en una copa Martini fría.",
+      "Decorar con piel de limón."
+    ]
+  },
+  {
+    "name": "Collins de Arándanos",
+    "base": "gin",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Gin con arándanos azules, limón y sirope de vainilla, terminado con soda. Refrescante y fragante.",
+    "garnish": "3 arándanos azules",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de vainilla",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Arándanos azules (blueberries)",
+        "amount": "19 unidades",
+        "note": "majar suavemente",
+        "required": false
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "para completar",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En la coctelera, machacar suavemente los arándanos con el gin.",
+      "Añadir el jugo de limón, el sirope de vainilla y bastante hielo.",
+      "Agitar bien y colar en un vaso alto con hielo fresco.",
+      "Completar con soda y decorar con 3 arándanos."
+    ]
+  },
+  {
+    "name": "Gimlet",
+    "base": "gin",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "Gin premium y cordial de lima. Minimalista, elegante y refrescante.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": "preferiblemente premium",
+        "required": true
+      },
+      {
+        "ingredient_name": "Cordial de lima",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso mezclador con hielo.",
+      "Añadir el gin y el cordial de lima.",
+      "Remover con cuchara hasta enfriar bien.",
+      "Colar en una copa de cóctel fría y servir sin hielo."
+    ]
+  },
+  {
+    "name": "Cóctel de Alaska",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "copa_martini",
+    "description": "Gin con Chartreuse amarillo y bitters de naranja. Herbáceo, complejo y sofisticado.",
+    "garnish": "Twist de piel de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Chartreuse amarillo",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Bitters de naranja",
+        "amount": "3 gotas",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Llenar un vaso mezclador con hielo.",
+      "Añadir el gin, el Chartreuse y los bitters de naranja.",
+      "Remover hasta que esté bien frío.",
+      "Colar en una copa de cóctel fría y decorar con piel de naranja."
+    ]
+  },
+  {
+    "name": "Algo Azul",
+    "base": "gin",
+    "taste": [
+      "frutal",
+      "tropical"
+    ],
+    "glass": "copa_balon",
+    "description": "Gin rosado, Blue Curaçao, piña, limón y Prosecco. Colorido, burbujeante y festivo.",
+    "garnish": "Piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin rosado",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Blue Curaçao",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "chorrito",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Prosecco / Champagne / espumante seco",
+        "amount": "para completar",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una copa balón llena de hielo, agregar el gin rosado y el jugo de limón.",
+      "Añadir el jugo de ananá y remover suavemente.",
+      "Completar casi hasta arriba con Prosecco.",
+      "Terminar con el Blue Curaçao por encima y decorar con piel de limón."
+    ]
+  },
+  {
+    "name": "Daiquiri de Fresa",
+    "base": "ron",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Ron blanco, licor de frutilla, lima y almíbar. El daiquiri más seductor del menú.",
+    "garnish": "Frutilla fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de frutilla / fresa",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Colocar el ron, el licor de frutilla, el jugo de lima y el almíbar en coctelera con hielo.",
+      "Agitar 15 segundos hasta que esté muy frío.",
+      "Colar en una copa Martini fría.",
+      "Decorar con una frutilla en el borde."
+    ]
+  },
+  {
+    "name": "Piña Colada",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron blanco, jugo de piña, crema de coco y crema de leche. El clásico tropical de playa.",
+    "garnish": "Rodaja de piña",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema de coco",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema de leche / nata líquida",
+        "amount": "25ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Sal fina / sal gruesa",
+        "amount": "1 pizca",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una coctelera, colocar el ron, el jugo de piña, la crema de coco, la crema de leche y la pizca de sal.",
+      "Añadir hielo y agitar enérgicamente 10-15 segundos.",
+      "Colar en un vaso alto con hielo fresco.",
+      "Decorar con la rodaja de piña y una pajita."
+    ]
+  },
+  {
+    "name": "Mai-Tai",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "clasico"
+    ],
+    "glass": "copa_balon",
+    "description": "Ron oscuro, ron blanco, ron demerara, triple sec, lima y orgeat. El rey de los cócteles tiki.",
+    "garnish": "Ramita de menta + gajo de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron oscuro",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ron demerara",
+        "amount": "chorrito",
+        "note": "flotar al final",
+        "required": false
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de orgeat (almendra)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, agregar el ron oscuro, el ron blanco, el triple sec, el jugo de lima y el sirope de orgeat.",
+      "Llenar con hielo y agitar fuerte 10 segundos.",
+      "Colar en una copa balón o goblet con hielo picado.",
+      "Flotar un chorrito de ron demerara por encima.",
+      "Decorar con menta y un gajo de naranja."
+    ]
+  },
+  {
+    "name": "Daiquirí Clásico",
+    "base": "ron",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Ron blanco, azúcar y lima. La trinidad perfecta del daiquiri en su forma más pura.",
+    "garnish": "Rodaja de lima",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1.5 cdas",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En la coctelera, colocar el azúcar, el ron y el jugo de lima. Mezclar un poco.",
+      "Añadir hielo y agitar 10-15 segundos hasta que esté muy frío.",
+      "Colar en una copa coupe fría.",
+      "Decorar con una rodaja de lima en el borde."
+    ]
+  },
+  {
+    "name": "Daiquiri de Frambuesa",
+    "base": "ron",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Ron blanco, lima, azúcar y frambuesas frescas. El daiquiri más colorido y afrutado.",
+    "garnish": "Frambuesa fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Frambuesas frescas",
+        "amount": "6 unidades",
+        "note": "majar 5, 1 para decorar",
+        "required": false
+      }
+    ],
+    "steps": [
+      "En la coctelera, machacar 5 frambuesas con el azúcar hasta formar pasta.",
+      "Agregar el ron y el jugo de lima, llenar con hielo.",
+      "Agitar 10-15 segundos.",
+      "Colar doble en una copa coupe fría y decorar con una frambuesa."
+    ]
+  },
+  {
+    "name": "Daiquiri Hemingway",
+    "base": "ron",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Ron blanco, licor de marrasquino, pomelo, lima y almíbar. La versión del escritor: seca y cítrica.",
+    "garnish": "Cereza al marrasquino",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor Maraschino / marrasquino",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de pomelo",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una coctelera con hielo, añadir el ron, el marrasquino, el jugo de pomelo, el jugo de lima y el almíbar.",
+      "Agitar bien 10-15 segundos.",
+      "Colar doble en una copa Martini bien fría.",
+      "Decorar con una cereza al marrasquino."
+    ]
+  },
+  {
+    "name": "Daiquiri de Maracuyá",
+    "base": "ron",
+    "taste": [
+      "frutal",
+      "tropical"
+    ],
+    "glass": "copa_martini",
+    "description": "Ron blanco, licor de maracuyá, lima y almíbar. Tropical y vibrante.",
+    "garnish": "Cáscara de maracuyá",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de maracuyá (Passoa)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Poner todos los ingredientes en coctelera con bastante hielo.",
+      "Agitar fuerte 15 segundos hasta que esté muy frío.",
+      "Colar en una copa Martini bien fría.",
+      "Decorar con la cáscara de la maracuyá."
+    ]
+  },
+  {
+    "name": "Mojito de Frambuesa",
+    "base": "ron",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron blanco, licor de frambuesa, lima, menta, azúcar y soda. El mojito afrutado para las tardes de verano.",
+    "garnish": "Frambuesa + ramita de menta",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de frambuesa",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "35ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "2 cdas",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Frambuesas frescas",
+        "amount": "5 unidades",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "8 hojas",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En un vaso alto, poner las frambuesas, el azúcar, la menta, el ron, el licor de frambuesa y el jugo de lima.",
+      "Añadir hielo picado y mezclar con cuchara hasta disolver el azúcar.",
+      "Completar con soda y más hielo picado si hace falta.",
+      "Decorar con frambuesa y menta."
+    ]
+  },
+  {
+    "name": "Un Bongo",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron con jugo de piña, puré de maracuyá, puré de mango y lima. Una explosión tropical en vaso.",
+    "garnish": "Hoja de piña",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Puré / pulpa de maracuyá",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Puré de mango",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Colocar todos los ingredientes en una coctelera con hielo.",
+      "Agitar enérgicamente 10 segundos.",
+      "Colar en un vaso alto con hielo en cubos.",
+      "Decorar con hoja de piña y servir."
+    ]
+  },
+  {
+    "name": "Analgésico",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Ron oscuro, crema de coco, jugo de piña y naranja. Cremoso y tropical, el remedio perfecto.",
+    "garnish": "Rodaja de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron oscuro",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema de coco",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Colocar el ron, la crema de coco, el jugo de piña y el jugo de naranja en una coctelera con hielo.",
+      "Agitar fuerte 10 segundos.",
+      "Colar en un vaso alto con hielo picado.",
+      "Decorar con rodaja de naranja y servir."
+    ]
+  },
+  {
+    "name": "Paloma",
+    "base": "tequila",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Tequila, pomelo rosado, lima, almíbar y soda. El cóctel nacional no oficial de México.",
+    "garnish": "Gajo de pomelo rosado",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila blanco",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de pomelo rosado",
+        "amount": "27.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "20ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "para completar",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En un vaso alto, agregar el tequila, el jugo de pomelo rosado, el almíbar y el jugo de lima.",
+      "Llenar con hielo en cubos y remover 10 segundos.",
+      "Completar con soda hasta el borde.",
+      "Decorar con un gajo de pomelo rosado."
+    ]
+  },
+  {
+    "name": "El Diablo",
+    "base": "tequila",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Tequila, Crème de Cassis, lima y ginger beer. Oscuro, picante y adictivo.",
+    "garnish": "Gajo de lima",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila blanco",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crème de Cassis (grosella negra)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ginger Beer",
+        "amount": "para completar",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera con hielo, poner el tequila, el Crème de Cassis y el jugo de lima.",
+      "Agitar bien hasta enfriar.",
+      "Colar en un vaso alto con hielo.",
+      "Completar con ginger beer y servir."
+    ]
+  },
+  {
+    "name": "Cantarito",
+    "base": "tequila",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Tequila con un trío de cítricos (lima, naranja, limón) y gaseosa de pomelo. La bebida de las jarritas mexicanas.",
+    "garnish": "Gajos de limón, lima y naranja + borde de sal",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Tequila blanco",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Gaseosa de pomelo",
+        "amount": "10ml",
+        "note": "para completar",
+        "required": true
+      },
+      {
+        "ingredient_name": "Sal fina / sal gruesa",
+        "amount": "para el borde",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Humedecer el borde de un vaso Collins y pasarlo por sal para escarcharlo.",
+      "Llenar el vaso con hielo en cubos.",
+      "Agregar el tequila y todos los jugos cítricos.",
+      "Completar con la gaseosa de pomelo y mezclar suavemente.",
+      "Decorar con gajos de limón, lima y naranja."
+    ]
+  },
+  {
+    "name": "Old Fashioned",
+    "base": "whisky",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Bourbon, azúcar, bitters de naranja y Angostura. El cóctel más antiguo del mundo, sin complicaciones.",
+    "garnish": "Piel de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Bourbon",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amargos Angostura",
+        "amount": "2 dashes",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Bitters de naranja",
+        "amount": "1 dash",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1 cda",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En un vaso bajo, machacar el azúcar con los bitters hasta formar pasta.",
+      "Añadir el bourbon y llenar con hielo en cubos.",
+      "Remover con cuchara 20 segundos para enfriar.",
+      "Exprimir piel de naranja sobre el vaso y dejarla dentro."
+    ]
+  },
+  {
+    "name": "Manhattan",
+    "base": "whisky",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "copa_martini",
+    "description": "Bourbon, vermut rojo, vermut seco y bitters. Elegante, potente y neoyorquino.",
+    "garnish": "Piel de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Bourbon",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Rosso (vermut rojo dulce)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Extra Dry (vermut seco)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amargos Angostura",
+        "amount": "2 dashes",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Llenar un vaso mezclador con hielo.",
+      "Añadir el bourbon, los dos vermuts y los bitters.",
+      "Remover con cuchara 20 segundos.",
+      "Colar en una copa de cóctel fría (sin hielo) y decorar con piel de naranja."
+    ]
+  },
+  {
+    "name": "Julepe de Menta",
+    "base": "whisky",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Bourbon, azúcar, menta fresca e hielo picado. El cóctel oficial del Derby de Kentucky.",
+    "garnish": "Ramita de menta fresca",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Bourbon",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1 cda",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Menta fresca",
+        "amount": "8 hojas",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner el azúcar y las hojas de menta en un vaso bajo con un chorrito de bourbon.",
+      "Machacar suavemente para disolver el azúcar y liberar la menta.",
+      "Añadir el resto del bourbon y llenar con hielo picado.",
+      "Remover 15 segundos, completar con más hielo y decorar con ramita de menta."
+    ]
+  },
+  {
+    "name": "Sazerac",
+    "base": "whisky",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Whisky de centeno, bitters Peychaud's, azúcar y un vaso recubierto de absenta. El cóctel de Nueva Orleans.",
+    "garnish": "Tira de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Whisky de centeno (rye)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Absenta",
+        "amount": "5ml",
+        "note": "para recubrir el vaso",
+        "required": true
+      },
+      {
+        "ingredient_name": "Amargos Peychaud's",
+        "amount": "3 dashes",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1 terrón",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "Enfriar un vaso bajo con hielo; en otro, machacar el azúcar con los bitters.",
+      "Añadir el whisky de centeno al segundo vaso y mezclar.",
+      "Vaciar el primer vaso, verter la absenta y girar para recubrir las paredes; desechar el exceso.",
+      "Pasar la mezcla de whisky al vaso con absenta, decorar con piel de limón."
+    ]
+  },
+  {
+    "name": "Boston Sour",
+    "base": "whisky",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Bourbon, limón, almíbar y clara de huevo. El whisky sour con la espuma sedosa que lo cambia todo.",
+    "garnish": "Twist de piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Bourbon",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Clara de huevo",
+        "amount": "12.5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En coctelera, poner el bourbon, el limón, el almíbar y la clara. Agitar en seco 5 segundos.",
+      "Añadir hielo y agitar fuerte 15 segundos.",
+      "Colar en un vaso bajo con hielo.",
+      "Decorar con piel de limón sobre la espuma."
+    ]
+  },
+  {
+    "name": "Clavo Oxidado",
+    "base": "whisky",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Whisky escocés y Drambuie sobre hielo. Dos de Escocia, uno solo que pedir.",
+    "garnish": "Twist de limón (opcional)",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Whisky escocés",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Drambuie",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso bajo con cubos de hielo.",
+      "Verter el whisky escocés y el Drambuie.",
+      "Remover brevemente y servir."
+    ]
+  },
+  {
+    "name": "Sidecar",
+    "base": "brandy",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Coñac, triple sec, limón y un toque de clara. Elegante parisino de los años 20.",
+    "garnish": "Piel de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Coñac / Brandy",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Clara de huevo",
+        "amount": "dash",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "5ml",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En coctelera, añadir coñac, triple sec, jugo de limón, almíbar y la clara. Agitar en seco 10 segundos.",
+      "Añadir hielo y agitar otros 10 segundos.",
+      "Colar en una copa coupe fría.",
+      "Decorar con piel de naranja."
+    ]
+  },
+  {
+    "name": "Conexión Francesa",
+    "base": "brandy",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Coñac y Amaretto en partes iguales sobre hielo. Corto, aromático y otoñal.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Coñac / Brandy",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amaretto",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner hielo en un vaso bajo.",
+      "Verter el coñac y el Amaretto.",
+      "Remover suavemente y servir."
+    ]
+  },
+  {
+    "name": "Brandy Collins",
+    "base": "brandy",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "vaso_alto",
+    "description": "Brandy, limón, almíbar y soda. El Tom Collins con más carácter.",
+    "garnish": "Cereza al marrasquino + rodaja de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Coñac / Brandy",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "15ml",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "splash",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En un vaso alto con hielo, agregar el brandy, el jugo de limón y el almíbar.",
+      "Mezclar bien con cuchara.",
+      "Completar con soda y decorar con cereza y rodaja de limón."
+    ]
+  },
+  {
+    "name": "Caipirinha",
+    "base": "caipirinha",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Cachaça, lima y azúcar morena. El cóctel nacional de Brasil, directo y refrescante.",
+    "garnish": "Gajo de lima",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Cachaça",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Lima fresca",
+        "amount": "1/2 lima",
+        "note": "cortada en 8 trozos",
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar morena",
+        "amount": "1 cdita",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Cortar la lima en 8 trozos y colocarlos en un vaso bajo.",
+      "Añadir el azúcar morena y machacar para extraer el jugo y disolver el azúcar.",
+      "Verter la cachaça y llenar el vaso con hielo picado.",
+      "Remover bien y añadir gajo de lima como decoración."
+    ]
+  },
+  {
+    "name": "Unicornio",
+    "base": "gin",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "copa_balon",
+    "description": "Gin rosado con almíbar, jugo de arándano rojo y limonada blanca. Coronado con algodón de azúcar justo antes de servir.",
+    "garnish": "Algodón de azúcar",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin rosado",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Gaseosa tipo limonada blanca",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Servir el gin rosado, el almíbar y el jugo de arándano en una copa balón con hielo.",
+      "Mezclar suavemente con cuchara.",
+      "Completar con limonada blanca.",
+      "Coronar con algodón de azúcar justo antes de servir."
+    ]
+  },
+  {
+    "name": "Dale un Beso de Despedida a la Señorita",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Gin seco con sirope de violeta, licor Maraschino y un toque de jugo de limón.",
+    "garnish": "Piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de violeta",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor Maraschino / marrasquino",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "al gusto",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, colocar el gin, el sirope de violeta, el licor Maraschino y el jugo de limón con hielo.",
+      "Agitar unos 10 segundos hasta enfriar bien la mezcla.",
+      "Colar en una copa de cóctel previamente enfriada."
+    ]
+  },
+  {
+    "name": "Ponle el Anillo",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Ron blanco y especiado con jugo de limón, jugo de frutas tropicales y un toque de granadina.",
+    "garnish": "Anillo de golosina",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ron especiado",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "al gusto",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "al gusto",
+        "note": "o jugos tropicales al gusto",
+        "required": false
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "un chorrito",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso bajo con hielo.",
+      "Verter el ron blanco y el ron especiado sobre el hielo y mezclar suavemente.",
+      "Agregar el jugo de limón, los jugos de frutas tropicales y un toque de granadina.",
+      "Remover para integrar bien los sabores.",
+      "Decorar con un anillo de golosina en el borde del vaso."
+    ]
+  },
+  {
+    "name": "Cerveza de Manteca",
+    "base": "vodka",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Vodka con licor de butterscotch, sirope de caramelo y cream soda, coronado con nata montada y popping candy.",
+    "garnish": "Nata montada con popping candy",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de butterscotch / toffee",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Sirope de caramelo",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Cream Soda",
+        "amount": "para completar",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Nata montada en spray",
+        "amount": "al gusto",
+        "note": null,
+        "required": false
+      },
+      {
+        "ingredient_name": "Popping candy (caramelos explosivos)",
+        "amount": "para decorar",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una coctelera, agregar el vodka, el licor de butterscotch y el sirope de caramelo con hielo.",
+      "Agitar enérgicamente unos 10 segundos.",
+      "Colar la mezcla en un vaso.",
+      "Completar con cream soda hasta casi el borde.",
+      "Coronar con nata montada en spray.",
+      "Espolvorear el popping candy justo antes de servir."
+    ]
+  },
+  {
+    "name": "Té Helado Long Island",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "vaso_alto",
+    "description": "El clásico multibase: gin, vodka, tequila, ron y triple sec con jugo de limón y un toque de cola.",
+    "garnish": "Rodaja de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Tequila blanco",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "30ml",
+        "note": "jarabe de goma / gomme syrup",
+        "required": true
+      },
+      {
+        "ingredient_name": "Cola",
+        "amount": "un toque",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, poner el gin, la vodka, el tequila, el ron, el triple sec, el jugo de limón y el almíbar.",
+      "Añadir hielo y agitar fuerte unos 10 segundos.",
+      "Llenar un vaso highball con hielo fresco y agregar un chorrito de cola en el fondo.",
+      "Colar la mezcla dentro del vaso.",
+      "Decorar con una rodaja de limón."
+    ]
+  },
+  {
+    "name": "John Collins",
+    "base": "whisky",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "vaso_alto",
+    "description": "Versión del Tom Collins con bourbon: jugo de limón, sirope de azúcar y soda, decorado con cereza marrasquino.",
+    "garnish": "Cereza marrasquino",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Bourbon",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": "sirope de azúcar",
+        "required": true
+      },
+      {
+        "ingredient_name": "Soda / agua con gas",
+        "amount": "un chorrito",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Cerezas al marrasquino",
+        "amount": "1 unidad",
+        "note": null,
+        "required": false
+      }
+    ],
+    "steps": [
+      "En una coctelera con hielo, mezclar bourbon, jugo de limón y sirope de azúcar.",
+      "Colar en un vaso highball lleno de hielo.",
+      "Completar con soda.",
+      "Decorar con una cereza marrasquino."
+    ]
+  },
+  {
+    "name": "Corredor de Ron",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "frutal"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Ron añejo y blanco con licor de banana, licor de mora, jugo de ananá y naranja.",
+    "garnish": "Rodaja de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron añejo / dorado",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de banana (Crème de Banane)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de mora (Crème de Mure)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, poner todos los ingredientes líquidos.",
+      "Agregar hielo y agitar fuerte durante unos 10 segundos.",
+      "Poner hielo fresco en un vaso bajo y colar el cóctel sobre el hielo.",
+      "Decorar con rodaja de naranja."
+    ]
+  },
+  {
+    "name": "Pink Gin",
+    "base": "gin",
+    "taste": [
+      "clasico",
+      "amargo"
+    ],
+    "glass": "copa_martini",
+    "description": "Gin servido directo en copa pintada con amargos Angostura. Corto, aromático y directo.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amargos Angostura",
+        "amount": "3 dashes",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Enfriar una copa Martini.",
+      "Echar los 3 dashes de Angostura en la copa y girarla para pintar el interior con el bitter.",
+      "Agregar el gin bien frío directamente en la copa.",
+      "Servir corto y directo, sin hielo."
+    ]
+  },
+  {
+    "name": "Gibson",
+    "base": "gin",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "Variante seca del Martini clásico, servido con cebollita encurtida en lugar de aceituna.",
+    "garnish": "Cebollita encurtida",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Gin (seco/dry)",
+        "amount": "60ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Martini Extra Dry (vermut seco)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Cebollines / cebollitas encurtidas",
+        "amount": "1 unidad",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso mezclador con hielo.",
+      "Añadir el gin y el vermut seco.",
+      "Remover bien con cuchara de bar hasta que esté bien frío.",
+      "Colar en una copa Martini previamente enfriada.",
+      "Decorar con la cebollita encurtida dentro de la copa."
+    ]
+  },
+  {
+    "name": "Cóctel de Champagne",
+    "base": "brandy",
+    "taste": [
+      "clasico",
+      "fresco"
+    ],
+    "glass": "copa_vino",
+    "description": "Brandy con champagne, azúcar y amargos Angostura. Un clásico elegante de aperitivo.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Coñac / Brandy",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Prosecco / Champagne / espumante seco",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Azúcar blanca",
+        "amount": "1 cucharada",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amargos Angostura",
+        "amount": "4 dashes",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner el azúcar en una copa de champagne.",
+      "Añadir los amargos Angostura y el brandy.",
+      "Remover con cuchara hasta empezar a deshacer el azúcar.",
+      "Completar con champagne frío, con cuidado por la espuma.",
+      "Dar una mezcla muy suave si hace falta y servir."
+    ]
+  },
+  {
+    "name": "El Padrino",
+    "base": "whisky",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Whisky escocés suavizado con Amaretto. Simple, elegante y aromático.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Whisky escocés",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amaretto",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso Old Fashioned con cubos de hielo.",
+      "Verter el whisky y el Amaretto directamente en el vaso.",
+      "Remover bien unos segundos para integrar y enfriar.",
+      "Servir."
+    ]
+  },
+  {
+    "name": "Detropolitano",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Variante oscura del Cosmopolitan con vodka, triple sec, licor de frambuesa negra y cranberry.",
+    "garnish": "Piel de naranja flameada",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de frambuesa negra (Chambord)",
+        "amount": "5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de arándano rojo (cranberry)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner todos los ingredientes líquidos en una coctelera.",
+      "Añadir bastante hielo y agitar con fuerza unos 10-15 segundos.",
+      "Colar en una copa Martini bien fría.",
+      "Decorar con una piel de naranja flameada sobre la superficie."
+    ]
+  },
+  {
+    "name": "Ballet Ruse",
+    "base": "vodka",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_martini",
+    "description": "Vodka con licor de frambuesa negra, jugo de lima y almíbar simple.",
+    "garnish": "Gajo de lima",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de frambuesa negra (Chambord)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner todos los ingredientes en la coctelera con bastante hielo.",
+      "Agitar fuerte de 10 a 15 segundos.",
+      "Colar en una copa Martini bien fría.",
+      "Decorar con un gajo de lima."
+    ]
+  },
+  {
+    "name": "Ola",
+    "base": "ron",
+    "taste": [
+      "fresco",
+      "clasico"
+    ],
+    "glass": "copa_martini",
+    "description": "Ron blanco con triple sec, licor de marrasquino y jugo de lima. Limpio y refrescante.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor Maraschino / marrasquino",
+        "amount": "1 dash",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de lima",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner el ron, el triple sec, el licor marrasquino y el jugo de lima en una coctelera con hielo.",
+      "Agitar bien unos 20 segundos.",
+      "Colar en una copa de cóctel previamente enfriada.",
+      "Servir sin hielo."
+    ]
+  },
+  {
+    "name": "Donald Sutherland",
+    "base": "whisky",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Whisky de centeno con Drambuie servido sobre abundante hielo picado hasta formar escarcha en el exterior del vaso.",
+    "garnish": "Twist de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Whisky de centeno (rye)",
+        "amount": "45ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Drambuie",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso grande con hielo picado hasta que rebalse.",
+      "Verter el Drambuie y el whisky de centeno sobre el hielo.",
+      "Remover suavemente hasta que se forme escarcha en el exterior del vaso.",
+      "Decorar con un twist de limón y servir."
+    ]
+  },
+  {
+    "name": "Wahine",
+    "base": "ron",
+    "taste": [
+      "tropical",
+      "fresco"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Ron blanco con vodka, jugo de ananá y limón. Ligero, tropical y refrescante.",
+    "garnish": "Ramita de menta",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Ron blanco (light rum)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Vodka (neutro)",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de ananá / piña",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Poner todos los ingredientes líquidos en una coctelera.",
+      "Añadir bastante hielo y agitar enérgicamente unos 10 segundos.",
+      "Colar en un vaso bajo lleno de hielo fresco.",
+      "Decorar con una ramita de menta."
+    ]
+  },
+  {
+    "name": "Bucks Fizz",
+    "base": "espumante",
+    "taste": [
+      "fresco",
+      "frutal"
+    ],
+    "glass": "copa_vino",
+    "description": "Clásico de brunch: champagne o espumante con jugo de naranja fresco. Simple y elegante.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Prosecco / Champagne / espumante seco",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Servir el jugo de naranja en una copa de champagne.",
+      "Con ayuda de una cuchara de bar, añadir el espumante por encima para conservar las burbujas.",
+      "Remover muy suave solo para integrar y servir."
+    ]
+  },
+  {
+    "name": "Kir Royale",
+    "base": "espumante",
+    "taste": [
+      "frutal",
+      "clasico"
+    ],
+    "glass": "copa_vino",
+    "description": "Champagne con Crème de Cassis. Elegante aperitivo francés.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Crème de Cassis (grosella negra)",
+        "amount": "20ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Prosecco / Champagne / espumante seco",
+        "amount": "80ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una copa de champagne bien fría, servir primero la Crème de Cassis.",
+      "Completar con el champagne/espumante, vertiendo despacio para no perder las burbujas.",
+      "Mezclar muy suavemente para integrar sin perder el gas."
+    ]
+  },
+  {
+    "name": "Bellini",
+    "base": "espumante",
+    "taste": [
+      "frutal",
+      "fresco"
+    ],
+    "glass": "copa_vino",
+    "description": "El clásico cocktail veneciano: Prosecco con puré de durazno y bitters de durazno.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Puré de durazno / melocotón",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Prosecco / Champagne / espumante seco",
+        "amount": "100ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Bitters de durazno",
+        "amount": "4 dashes",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una copa de champagne fría, agregar primero los 4 dashes de bitters de durazno.",
+      "Sumar el puré de durazno en el fondo de la copa.",
+      "Completar con Prosecco lentamente, dejando que se mezcle con el puré.",
+      "Dar una mezcla muy suave con cucharita si hace falta, sin romper las burbujas."
+    ]
+  },
+  {
+    "name": "Amaretto Sour",
+    "base": "licores",
+    "taste": [
+      "amargo",
+      "frutal"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Amaretto con jugo de limón, almíbar simple y clara de huevo. Dulce y perfectamente equilibrado.",
+    "garnish": "Piel de limón",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Amaretto",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de limón",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Almíbar simple (simple syrup)",
+        "amount": "12.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Clara de huevo",
+        "amount": "un toque",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Amargos Angostura",
+        "amount": "1 dash",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera, agregar el Amaretto, el jugo de limón, el almíbar, la clara de huevo y un toque de Angostura.",
+      "Hacer un dry shake (sin hielo) durante unos 5 segundos para emulsionar la clara.",
+      "Añadir hielo en cubos a la coctelera y agitar de nuevo durante unos 10 segundos.",
+      "Llenar un vaso bajo con hielo en cubos.",
+      "Colar la mezcla dentro del vaso.",
+      "Usar piel de limón como decoración."
+    ]
+  },
+  {
+    "name": "B-52",
+    "base": "licores",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Shot en capas de licor de café, crema irlandesa y triple sec.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de crema irlandesa (Baileys)",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Triple Sec / Cointreau",
+        "amount": "10ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En un vaso de shot, servir primero el licor de café.",
+      "Con ayuda de una cucharita, flotar encima el licor de crema irlandesa formando la segunda capa.",
+      "De la misma forma, flotar el triple sec como tercera capa.",
+      "Servir con cucharita (se puede tomar en capas o revolver antes de beber)."
+    ]
+  },
+  {
+    "name": "Cereza Cubierta de Chocolate",
+    "base": "licores",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Shot en capas de granadina, licor de café y crema irlandesa, evocando cerezas al chocolate.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Granadina",
+        "amount": "1 cucharada",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "30ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de crema irlandesa (Baileys)",
+        "amount": "30ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Verter primero la granadina en un vaso bajo.",
+      "Sobre el dorso de una cucharita, añadir lentamente el licor de café formando una segunda capa.",
+      "Repetir el proceso con la crema irlandesa para formar la tercera capa.",
+      "Servir con cuidado para no mezclar las capas."
+    ]
+  },
+  {
+    "name": "Almendra Tostada",
+    "base": "licores",
+    "taste": [
+      "clasico"
+    ],
+    "glass": "vaso_bajo",
+    "description": "Amaretto con licor de café y crema de leche. Dulce, cremoso y aromático.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Amaretto",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Licor de café (Kahlúa / Tía María)",
+        "amount": "37.5ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Crema de leche / nata líquida",
+        "amount": "25ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "En una coctelera con hielo, poner el Amaretto, el licor de café y la crema.",
+      "Agitar bien hasta que la mezcla esté fría y ligeramente espesa.",
+      "Llenar un vaso Old Fashioned con hielo.",
+      "Colar la mezcla sobre el hielo y servir."
+    ]
+  },
+  {
+    "name": "Amaretto Sunrise",
+    "base": "licores",
+    "taste": [
+      "frutal"
+    ],
+    "glass": "vaso_alto",
+    "description": "Amaretto con jugo de naranja y granadina, imitando el efecto visual del Tequila Sunrise.",
+    "garnish": "Rodaja de naranja",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Amaretto",
+        "amount": "45ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Jugo de naranja",
+        "amount": "90ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Granadina",
+        "amount": "15ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso con hielo.",
+      "Verter el Amaretto y el jugo de naranja.",
+      "Añadir la granadina despacio: se va al fondo y crea el efecto sunrise.",
+      "No mezclar, decorar con rodaja de naranja y servir."
+    ]
+  },
+  {
+    "name": "Cheeky Vimto",
+    "base": "licores",
+    "taste": [
+      "frutal",
+      "clasico"
+    ],
+    "glass": "vaso_alto",
+    "description": "Blue WKD con oporto. Un clásico de pubs ingleses, sencillo y vistoso.",
+    "garnish": "Sin decoración",
+    "is_adapted": false,
+    "adaptation_note": null,
+    "ingredients": [
+      {
+        "ingredient_name": "Blue WKD",
+        "amount": "275ml",
+        "note": null,
+        "required": true
+      },
+      {
+        "ingredient_name": "Oporto (Port)",
+        "amount": "50ml",
+        "note": null,
+        "required": true
+      }
+    ],
+    "steps": [
+      "Llenar un vaso tipo pub con hielo.",
+      "Verter el Blue WKD.",
+      "Añadir el oporto por encima.",
+      "Mezclar suavemente y servir."
+    ]
+  }
+]

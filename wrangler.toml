@@ -3,16 +3,22 @@ main = "build/worker/shim.mjs"
 compatibility_date = "2024-01-01"
 
 [build]
-command = "cargo install -q worker-build@^0.8 && worker-build --release"
+# RUSTFLAGS='' is required before worker-build. devenv's Rust module sets
+# RUSTFLAGS="-C link-arg=-fuse-ld=lld" globally so native Rust builds use LLD.
+# That flag is valid for native targets but rust-lld in WASM mode does not accept it,
+# causing "unknown argument: -fuse-ld=lld" and a link failure. Clearing RUSTFLAGS
+# here only affects the wasm32-unknown-unknown build that worker-build runs internally;
+# the preceding `cargo install worker-build` (a native build) still gets the flag.
+command = "cargo install -q worker-build@^0.8 && RUSTFLAGS='' worker-build --release"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "cocktail-db"
-database_id = "REEMPLAZAR_CON_OUTPUT_DE_OPENTOFU"
+database_id = "0ae3f242-5766-4b8a-9d93-bcb151c7f188" # Opentofu output at infra/ gave me this value
 
 [vars]
 EVENT_NAME = "Cumpleaños"
-# En producción, ADMIN_USER y ADMIN_PASSWORD se crean como secrets vía OpenTofu.
-# Para desarrollo local, se definen aquí directamente (solo aplica a `wrangler dev`).
-ADMIN_USER = "organizador"
-ADMIN_PASSWORD = "test123"
+# ADMIN_USER y ADMIN_PASSWORD se setean como secrets vía wrangler (no en este archivo):
+#   wrangler secret put ADMIN_USER
+#   wrangler secret put ADMIN_PASSWORD
+# Para desarrollo local con `wrangler dev`, definirlos en .dev.vars (no commitear).

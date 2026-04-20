@@ -15,6 +15,12 @@
     pkgs.pkg-config
   ];
 
+  # worker-build links against OpenSSL at runtime, but devenv does not add the profile's
+  # lib dir to LD_LIBRARY_PATH automatically. Without this, worker-build fails at startup
+  # with "libssl.so.3: cannot open shared object file". pkgs.openssl.dev (above) only
+  # provides headers; pkgs.openssl provides the actual .so runtime libraries.
+  env.LD_LIBRARY_PATH = lib.makeLibraryPath [ pkgs.openssl ];
+
   languages.rust = {
     enable = true;
     channel = "stable";

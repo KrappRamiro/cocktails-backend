@@ -13,6 +13,19 @@ The backend is a Cloudflare Worker written in Rust, compiled to WebAssembly. It 
 | Node.js | 20+ | [nodejs.org](https://nodejs.org/) (needed for wrangler) |
 | wrangler | 4.x | `npm install -g wrangler` |
 
+## Configuration
+
+Before running locally or deploying, fill in the D1 database ID in `wrangler.toml`. You get this value from the infra repo after running `tofu apply`:
+
+```toml
+[[d1_databases]]
+binding       = "DB"
+database_name = "cocktail-db"
+database_id   = "<paste d1_database_id output here>"
+```
+
+---
+
 ## Setup (local development)
 
 ```bash
@@ -46,7 +59,7 @@ curl http://localhost:8787/api/ingredients
 
 > **Note:** The first `wrangler dev` build takes ~15 seconds because it compiles all crates to Wasm. Subsequent builds are incremental (~1 second).
 
-> **Admin secrets:** For local dev, wrangler uses `.dev.vars` for secrets. Create `worker/.dev.vars`:
+> **Admin secrets:** For local dev, wrangler uses `.dev.vars` for secrets. Create `.dev.vars` in the repo root:
 > ```
 > ADMIN_USER=organizador
 > ADMIN_PASSWORD=test123
@@ -57,7 +70,7 @@ curl http://localhost:8787/api/ingredients
 ## Project Structure
 
 ```
-worker/src/
+src/
 ├── lib.rs          # Entry point: Worker event handler + router + shared helpers
 ├── db.rs           # Shared DB logic: cocktail assembly and availability calculation
 ├── models/
@@ -228,7 +241,7 @@ Secrets are never hardcoded. They are injected into the Worker at deploy time vi
 
 ## How to Run Migrations
 
-Migrations live in `worker/migrations/`. The filename prefix determines execution order.
+Migrations live in `migrations/`. The filename prefix determines execution order.
 
 **Apply to remote D1 (production):**
 ```bash
@@ -256,7 +269,7 @@ The Worker does not currently have unit tests (Cloudflare Workers wasm runtime m
 **Local integration testing with `wrangler dev`:**
 ```bash
 # Terminal 1
-cd worker && wrangler dev
+wrangler dev
 
 # Terminal 2 — test with curl
 curl http://localhost:8787/api/cocktails
@@ -267,4 +280,18 @@ curl -X POST http://localhost:8787/api/admin/ingredients \
 ```
 
 **End-to-end testing via the frontend:**
-Start both `wrangler dev` and `npm run dev` in the frontend, and use the admin panel normally. The frontend's Vitest tests mock the API layer.
+Start both `wrangler dev` and `npm run dev` in the frontend repo, and use the admin panel normally. The frontend's Vitest tests mock the API layer.
+
+---
+
+## Deployment
+
+```bash
+# Deploy to Cloudflare Workers (production)
+wrangler deploy
+
+# Run migrations against the remote D1 database (first deploy, or after schema changes)
+wrangler d1 execute cocktail-db --file=migrations/0001_schema.sql
+```
+
+Worker secrets (`ADMIN_USER`, `ADMIN_PASSWORD`) are created by the infra repo via OpenTofu and injected automatically at runtime. They are never stored in `wrangler.toml` or committed to the repo.
