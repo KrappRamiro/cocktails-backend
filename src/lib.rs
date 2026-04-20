@@ -33,6 +33,7 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
         .get_async("/api/cocktails", routes::cocktails::list_cocktails)
         .get_async("/api/cocktails/:id", routes::cocktails::get_cocktail)
         .get_async("/api/ingredients", routes::ingredients::list_ingredients)
+        .get_async("/api/config", routes::config::get_config)
         // Rutas admin — ingredientes
         .post_async("/api/admin/ingredients", routes::admin::create_ingredient)
         .put_async(
@@ -52,6 +53,8 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
         .post_async("/api/admin/cocktails", routes::admin::create_cocktail)
         .put_async("/api/admin/cocktails/:id", routes::admin::update_cocktail)
         .delete_async("/api/admin/cocktails/:id", routes::admin::delete_cocktail)
+        // Rutas admin — config
+        .put_async("/api/admin/config", routes::config::update_config)
         .run(req, env)
         .await
 }

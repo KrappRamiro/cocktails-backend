@@ -1,180 +1,702 @@
 [
-  {"name": "Vodka (neutro)",                                  "category": "bases_alcoholicas"},
-  {"name": "Vodka frutos rojos",                              "category": "bases_alcoholicas"},
-  {"name": "Vodka de frambuesa",                              "category": "bases_alcoholicas"},
-  {"name": "Vodka cítrico",                                   "category": "bases_alcoholicas"},
-  {"name": "Vodka sabor vainilla",                            "category": "bases_alcoholicas"},
-  {"name": "Vodka con pimienta",                              "category": "bases_alcoholicas"},
-  {"name": "Ron blanco (light rum)",                          "category": "bases_alcoholicas"},
-  {"name": "Ron añejo / dorado",                              "category": "bases_alcoholicas"},
-  {"name": "Ron oscuro",                                      "category": "bases_alcoholicas"},
-  {"name": "Ron especiado",                                   "category": "bases_alcoholicas"},
-  {"name": "Ron demerara",                                    "category": "bases_alcoholicas"},
-  {"name": "Gin (seco/dry)",                                  "category": "bases_alcoholicas"},
-  {"name": "Gin rosado",                                      "category": "bases_alcoholicas"},
-  {"name": "Gin frutos rojos",                                "category": "bases_alcoholicas"},
-  {"name": "Tequila blanco",                                  "category": "bases_alcoholicas"},
-  {"name": "Tequila reposado / añejo",                        "category": "bases_alcoholicas"},
-  {"name": "Bourbon",                                         "category": "bases_alcoholicas"},
-  {"name": "Whisky escocés",                                  "category": "bases_alcoholicas"},
-  {"name": "Whisky de centeno (rye)",                         "category": "bases_alcoholicas"},
-  {"name": "Pisco",                                           "category": "bases_alcoholicas"},
-  {"name": "Fernet",                                          "category": "bases_alcoholicas"},
-  {"name": "Cachaça",                                         "category": "bases_alcoholicas"},
-  {"name": "Coñac / Brandy",                                  "category": "bases_alcoholicas"},
-  {"name": "Absenta",                                         "category": "bases_alcoholicas"},
-  {"name": "Sake",                                            "category": "bases_alcoholicas"},
-
-  {"name": "Martini Rosso (vermut rojo dulce)",               "category": "vermuts_aperitivos"},
-  {"name": "Martini Bianco (vermut blanco)",                  "category": "vermuts_aperitivos"},
-  {"name": "Martini Extra Dry (vermut seco)",                 "category": "vermuts_aperitivos"},
-  {"name": "Aperol",                                          "category": "vermuts_aperitivos"},
-  {"name": "Campari",                                         "category": "vermuts_aperitivos"},
-  {"name": "Cynar",                                           "category": "vermuts_aperitivos"},
-  {"name": "Ramazotti",                                       "category": "vermuts_aperitivos"},
-  {"name": "Gancia / espumante",                              "category": "vermuts_aperitivos"},
-  {"name": "Prosecco / Champagne / espumante seco",           "category": "vermuts_aperitivos"},
-  {"name": "Oporto (Port)",                                   "category": "vermuts_aperitivos"},
-  {"name": "Vino tinto",                                      "category": "vermuts_aperitivos"},
-  {"name": "Vino blanco dulce",                               "category": "vermuts_aperitivos"},
-
-  {"name": "Triple Sec / Cointreau",                          "category": "licores"},
-  {"name": "Licor de café (Kahlúa / Tía María)",              "category": "licores"},
-  {"name": "Amaretto",                                        "category": "licores"},
-  {"name": "Licor de menta",                                  "category": "licores"},
-  {"name": "Licor de melón",                                  "category": "licores"},
-  {"name": "Licor de coco (Malibu)",                          "category": "licores"},
-  {"name": "Licor de crema irlandesa (Baileys)",              "category": "licores"},
-  {"name": "Licor de frambuesa negra (Chambord)",             "category": "licores"},
-  {"name": "Licor de frambuesa",                              "category": "licores"},
-  {"name": "Licor de frutilla / fresa",                       "category": "licores"},
-  {"name": "Licor de cereza (Cherry Heering)",                "category": "licores"},
-  {"name": "Licor de maracuyá (Passoa)",                      "category": "licores"},
-  {"name": "Licor de banana (Crème de Banane)",               "category": "licores"},
-  {"name": "Licor de durazno (Peach Schnapps)",               "category": "licores"},
-  {"name": "Licor de manzana (Apple Schnapps)",               "category": "licores"},
-  {"name": "Licor de mora (Crème de Mure)",                   "category": "licores"},
-  {"name": "Crème de Cassis (grosella negra)",                "category": "licores"},
-  {"name": "Licor Maraschino / marrasquino",                  "category": "licores"},
-  {"name": "St-Germain (licor flor de saúco)",                "category": "licores"},
-  {"name": "Chartreuse amarillo",                             "category": "licores"},
-  {"name": "Blue Curaçao",                                    "category": "licores"},
-  {"name": "Benedictine",                                     "category": "licores"},
-  {"name": "Drambuie",                                        "category": "licores"},
-  {"name": "Licor de butterscotch / toffee",                  "category": "licores"},
-  {"name": "Licor de violeta",                                "category": "licores"},
-  {"name": "Blue WKD",                                        "category": "licores"},
-
-  {"name": "Amargos Angostura",                               "category": "amargos"},
-  {"name": "Amargos Peychaud's",                              "category": "amargos"},
-  {"name": "Bitters de naranja",                              "category": "amargos"},
-  {"name": "Bitters de pomelo",                               "category": "amargos"},
-  {"name": "Bitters de durazno",                              "category": "amargos"},
-  {"name": "Bitters aromáticos",                              "category": "amargos"},
-
-  {"name": "Tónica",                                          "category": "mixers_gaseosas"},
-  {"name": "Soda / agua con gas",                             "category": "mixers_gaseosas"},
-  {"name": "Cola",                                            "category": "mixers_gaseosas"},
-  {"name": "Ginger Beer",                                     "category": "mixers_gaseosas"},
-  {"name": "Ginger Ale",                                      "category": "mixers_gaseosas"},
-  {"name": "Cream Soda",                                      "category": "mixers_gaseosas"},
-  {"name": "Gaseosa tipo limonada blanca",                    "category": "mixers_gaseosas"},
-  {"name": "Gaseosa de pomelo",                               "category": "mixers_gaseosas"},
-  {"name": "Agua mineral con gas",                            "category": "mixers_gaseosas"},
-
-  {"name": "Jugo de naranja",                                 "category": "jugos"},
-  {"name": "Jugo de limón",                                   "category": "jugos"},
-  {"name": "Jugo de lima",                                    "category": "jugos"},
-  {"name": "Jugo de ananá / piña",                            "category": "jugos"},
-  {"name": "Jugo de arándano rojo (cranberry)",               "category": "jugos"},
-  {"name": "Jugo de pomelo",                                  "category": "jugos"},
-  {"name": "Jugo de pomelo rosado",                           "category": "jugos"},
-  {"name": "Jugo de tomate",                                  "category": "jugos"},
-  {"name": "Jugo de uva blanca",                              "category": "jugos"},
-  {"name": "Jugo de durazno / melocotón",                     "category": "jugos"},
-  {"name": "Jugo / néctar de maracuyá",                       "category": "jugos"},
-  {"name": "Néctar de cereza",                                "category": "jugos"},
-  {"name": "Jugo de albaricoque",                             "category": "jugos"},
-  {"name": "Néctar de melocotón",                             "category": "jugos"},
-  {"name": "Cordial de lima",                                 "category": "jugos"},
-  {"name": "Puré de arándanos",                               "category": "jugos"},
-  {"name": "Puré / pulpa de maracuyá",                        "category": "jugos"},
-  {"name": "Puré de mango",                                   "category": "jugos"},
-  {"name": "Puré de durazno / melocotón",                     "category": "jugos"},
-  {"name": "Pulpa de sandía",                                 "category": "jugos"},
-
-  {"name": "Lima fresca",                                     "category": "frescos_y_botanicos"},
-  {"name": "Limón fresco",                                    "category": "frescos_y_botanicos"},
-  {"name": "Naranja fresca",                                  "category": "frescos_y_botanicos"},
-  {"name": "Pomelo fresco",                                   "category": "frescos_y_botanicos"},
-  {"name": "Pomelo rosado fresco",                            "category": "frescos_y_botanicos"},
-  {"name": "Mandarina fresca",                                "category": "frescos_y_botanicos"},
-  {"name": "Menta fresca",                                    "category": "frescos_y_botanicos"},
-  {"name": "Albahaca fresca",                                 "category": "frescos_y_botanicos"},
-  {"name": "Romero fresco",                                   "category": "frescos_y_botanicos"},
-  {"name": "Tomillo fresco",                                  "category": "frescos_y_botanicos"},
-  {"name": "Pepino",                                          "category": "frescos_y_botanicos"},
-  {"name": "Jengibre fresco",                                 "category": "frescos_y_botanicos"},
-  {"name": "Frambuesas frescas",                              "category": "frescos_y_botanicos"},
-  {"name": "Frutillas / fresas frescas",                      "category": "frescos_y_botanicos"},
-  {"name": "Moras (blackberries)",                            "category": "frescos_y_botanicos"},
-  {"name": "Arándanos azules (blueberries)",                  "category": "frescos_y_botanicos"},
-  {"name": "Arándanos frescos",                               "category": "frescos_y_botanicos"},
-  {"name": "Uvas blancas sin semillas",                       "category": "frescos_y_botanicos"},
-  {"name": "Uvas rojas sin semillas",                         "category": "frescos_y_botanicos"},
-  {"name": "Kiwi fresco",                                     "category": "frescos_y_botanicos"},
-  {"name": "Mango fresco",                                    "category": "frescos_y_botanicos"},
-  {"name": "Piña / ananá fresca",                             "category": "frescos_y_botanicos"},
-  {"name": "Maracuyá fresca",                                 "category": "frescos_y_botanicos"},
-  {"name": "Sandía fresca",                                   "category": "frescos_y_botanicos"},
-  {"name": "Plátano / banana",                                "category": "frescos_y_botanicos"},
-  {"name": "Higo fresco",                                     "category": "frescos_y_botanicos"},
-  {"name": "Guayaba",                                         "category": "frescos_y_botanicos"},
-  {"name": "Jalapeño",                                        "category": "frescos_y_botanicos"},
-  {"name": "Pimiento / morrón amarillo",                      "category": "frescos_y_botanicos"},
-  {"name": "Apio",                                            "category": "frescos_y_botanicos"},
-  {"name": "Cebollines / cebollitas encurtidas",              "category": "frescos_y_botanicos"},
-  {"name": "Aceituna verde",                                  "category": "frescos_y_botanicos"},
-  {"name": "Bayas de enebro",                                 "category": "frescos_y_botanicos"},
-  {"name": "Anís estrellado",                                 "category": "frescos_y_botanicos"},
-  {"name": "Canela en rama",                                  "category": "frescos_y_botanicos"},
-  {"name": "Pimienta negra en granos",                        "category": "frescos_y_botanicos"},
-  {"name": "Flores de manzanilla seca",                       "category": "frescos_y_botanicos"},
-
-  {"name": "Azúcar blanca",                                   "category": "basicos_alacena"},
-  {"name": "Azúcar morena",                                   "category": "basicos_alacena"},
-  {"name": "Almíbar simple (simple syrup)",                   "category": "basicos_alacena"},
-  {"name": "Miel",                                            "category": "basicos_alacena"},
-  {"name": "Sal fina / sal gruesa",                           "category": "basicos_alacena"},
-  {"name": "Pimienta negra molida",                           "category": "basicos_alacena"},
-  {"name": "Tabasco",                                         "category": "basicos_alacena"},
-  {"name": "Salsa Worcestershire / inglesa",                  "category": "basicos_alacena"},
-  {"name": "Mermelada de naranja",                            "category": "basicos_alacena"},
-  {"name": "Granadina",                                       "category": "basicos_alacena"},
-  {"name": "Sirope de maracuyá",                              "category": "basicos_alacena"},
-  {"name": "Sirope de vainilla",                              "category": "basicos_alacena"},
-  {"name": "Sirope de caramelo",                              "category": "basicos_alacena"},
-  {"name": "Sirope de chicle / bubblegum",                    "category": "basicos_alacena"},
-  {"name": "Sirope de frambuesa",                             "category": "basicos_alacena"},
-  {"name": "Sirope de violeta",                               "category": "basicos_alacena"},
-  {"name": "Sirope de orgeat (almendra)",                     "category": "basicos_alacena"},
-  {"name": "Jarabe de menta",                                 "category": "basicos_alacena"},
-  {"name": "Jarabe de almendra",                              "category": "basicos_alacena"},
-  {"name": "Jarabe de plátano",                               "category": "basicos_alacena"},
-  {"name": "Crema de coco",                                   "category": "basicos_alacena"},
-  {"name": "Leche",                                           "category": "basicos_alacena"},
-  {"name": "Crema de leche / nata líquida",                   "category": "basicos_alacena"},
-  {"name": "Crema doble (nata espesa)",                       "category": "basicos_alacena"},
-  {"name": "Clara de huevo",                                  "category": "basicos_alacena"},
-  {"name": "Espresso / café expreso",                         "category": "basicos_alacena"},
-  {"name": "Agua de azahar",                                  "category": "basicos_alacena"},
-  {"name": "Horchata",                                        "category": "basicos_alacena"},
-  {"name": "Nata montada en spray",                           "category": "basicos_alacena"},
-  {"name": "Popping candy (caramelos explosivos)",             "category": "basicos_alacena"},
-
-  {"name": "Lima deshidratada (rodajas)",                     "category": "decoracion"},
-  {"name": "Naranja deshidratada (rodajas)",                  "category": "decoracion"},
-  {"name": "Limón deshidratado (rodajas)",                    "category": "decoracion"},
-  {"name": "Pack tropical deshidratado",                      "category": "decoracion"},
-  {"name": "Cerezas al marrasquino",                          "category": "decoracion"}
+  {
+    "name": "Absenta",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Aceituna verde",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Agua de azahar",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Agua mineral con gas",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Albahaca fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Almíbar simple (simple syrup)",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Amaretto",
+    "category": "licores"
+  },
+  {
+    "name": "Amargos Angostura",
+    "category": "amargos"
+  },
+  {
+    "name": "Amargos Peychaud's",
+    "category": "amargos"
+  },
+  {
+    "name": "Anacardo (caju) fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Anís estrellado",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Aperol",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Apio",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Arándanos azules (blueberries)",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Azúcar blanca",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Azúcar morena",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Bayas de enebro",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Benedictine",
+    "category": "licores"
+  },
+  {
+    "name": "Bitters aromáticos",
+    "category": "amargos"
+  },
+  {
+    "name": "Bitters de durazno",
+    "category": "amargos"
+  },
+  {
+    "name": "Bitters de naranja",
+    "category": "amargos"
+  },
+  {
+    "name": "Bitters de pomelo",
+    "category": "amargos"
+  },
+  {
+    "name": "Blue Curaçao",
+    "category": "licores"
+  },
+  {
+    "name": "Blue WKD",
+    "category": "licores"
+  },
+  {
+    "name": "Bourbon",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Cachaça",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Cajá fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Campari",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Canela en rama",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Cebollines / cebollitas encurtidas",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Cerezas al marrasquino",
+    "category": "decoracion"
+  },
+  {
+    "name": "Chartreuse amarillo",
+    "category": "licores"
+  },
+  {
+    "name": "Clara de huevo",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Cola",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Cordial de lima",
+    "category": "jugos"
+  },
+  {
+    "name": "Coñac / Brandy",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Cream Soda",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Crema de coco",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Crema de leche / nata líquida",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Crema doble (nata espesa)",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Crème de Cassis (grosella negra)",
+    "category": "licores"
+  },
+  {
+    "name": "Cynar",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Drambuie",
+    "category": "licores"
+  },
+  {
+    "name": "Espresso / café expreso",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Fernet",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Flores de manzanilla seca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Frambuesas frescas",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Frutillas / fresas frescas",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Gancia / espumante",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Gaseosa de pomelo",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Gaseosa tipo limonada blanca",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Gin (seco/dry)",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Gin azul",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Gin frutos rojos",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Gin rosado",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Ginger Ale",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Ginger Beer",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Granadina",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Guayaba",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Higo fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Horchata",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Jabuticaba fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Jalapeño",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Jarabe de almendra",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Jarabe de menta",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Jarabe de plátano",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Jengibre fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Jugo / néctar de maracuyá",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de albaricoque",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de ananá / piña",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de arándano rojo (cranberry)",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de durazno / melocotón",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de lima",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de limón",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de naranja",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de pomelo",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de pomelo rosado",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de tomate",
+    "category": "jugos"
+  },
+  {
+    "name": "Jugo de uva blanca",
+    "category": "jugos"
+  },
+  {
+    "name": "Kiwi fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Leche",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Licor Maraschino / marrasquino",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de banana (Crème de Banane)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de butterscotch / toffee",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de café (Kahlúa / Tía María)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de cereza (Cherry Heering)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de coco (Malibu)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de crema irlandesa (Baileys)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de durazno (Peach Schnapps)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de frambuesa",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de frambuesa negra (Chambord)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de frutilla / fresa",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de manzana (Apple Schnapps)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de maracuyá (Passoa)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de melón",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de menta",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de mora (Crème de Mure)",
+    "category": "licores"
+  },
+  {
+    "name": "Licor de violeta",
+    "category": "licores"
+  },
+  {
+    "name": "Lima deshidratada (rodajas)",
+    "category": "decoracion"
+  },
+  {
+    "name": "Lima fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Limón deshidratado (rodajas)",
+    "category": "decoracion"
+  },
+  {
+    "name": "Limón fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Mandarina fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Mango fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Maracuyá fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Martini Bianco (vermut blanco)",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Martini Extra Dry (vermut seco)",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Martini Rosso (vermut rojo dulce)",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Maíz dulce cocido",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Menta fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Mermelada de naranja",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Miel",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Moras (blackberries)",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Naranja deshidratada (rodajas)",
+    "category": "decoracion"
+  },
+  {
+    "name": "Naranja fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Nata montada en spray",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Néctar de agave",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Néctar de cereza",
+    "category": "jugos"
+  },
+  {
+    "name": "Néctar de melocotón",
+    "category": "jugos"
+  },
+  {
+    "name": "Oporto (Port)",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Pack tropical deshidratado",
+    "category": "decoracion"
+  },
+  {
+    "name": "Pepino",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Pimienta negra en granos",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Pimienta negra molida",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Pimiento / morrón amarillo",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Pisco",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Piña / ananá fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Plátano / banana",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Pomelo fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Pomelo rosado fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Popping candy (caramelos explosivos)",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Prosecco / Champagne / espumante seco",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Pulpa de sandía",
+    "category": "jugos"
+  },
+  {
+    "name": "Puré / pulpa de maracuyá",
+    "category": "jugos"
+  },
+  {
+    "name": "Puré de arándanos",
+    "category": "jugos"
+  },
+  {
+    "name": "Puré de durazno / melocotón",
+    "category": "jugos"
+  },
+  {
+    "name": "Puré de mango",
+    "category": "jugos"
+  },
+  {
+    "name": "Ramazotti",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Romero fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Ron añejo / dorado",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Ron blanco (light rum)",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Ron demerara",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Ron especiado",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Ron oscuro",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Sake",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Sal fina / sal gruesa",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Salsa Worcestershire / inglesa",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sandía fresca",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Sirope de caramelo",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sirope de chicle / bubblegum",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sirope de frambuesa",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sirope de maracuyá",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sirope de orgeat (almendra)",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sirope de vainilla",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Sirope de violeta",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Soda / agua con gas",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "St-Germain (licor flor de saúco)",
+    "category": "licores"
+  },
+  {
+    "name": "Tabasco",
+    "category": "basicos_alacena"
+  },
+  {
+    "name": "Tequila blanco",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Tequila reposado / añejo",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Tomillo fresco",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Triple Sec / Cointreau",
+    "category": "licores"
+  },
+  {
+    "name": "Tónica",
+    "category": "mixers_gaseosas"
+  },
+  {
+    "name": "Uvas blancas sin semillas",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Uvas rojas sin semillas",
+    "category": "frescos_y_botanicos"
+  },
+  {
+    "name": "Vino blanco dulce",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Vino tinto",
+    "category": "vermuts_aperitivos"
+  },
+  {
+    "name": "Vodka (neutro)",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Vodka con pimienta",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Vodka cítrico",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Vodka de frambuesa",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Vodka frutos rojos",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Vodka sabor vainilla",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Whisky de centeno (rye)",
+    "category": "bases_alcoholicas"
+  },
+  {
+    "name": "Whisky escocés",
+    "category": "bases_alcoholicas"
+  }
 ]

@@ -26,7 +26,7 @@ fn get_env_value(ctx: &RouteContext<()>, name: &str) -> Result<String> {
 
 /// Valida Basic Auth contra los secrets del Worker.
 /// Retorna `true` si las credenciales coinciden.
-fn check_auth(req: &Request, ctx: &RouteContext<()>) -> Result<bool> {
+pub(crate) fn check_auth(req: &Request, ctx: &RouteContext<()>) -> Result<bool> {
     let auth_header = req.headers().get("Authorization")?.unwrap_or_default();
     if !auth_header.starts_with("Basic ") {
         return Ok(false);
