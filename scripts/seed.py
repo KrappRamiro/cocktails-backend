@@ -77,10 +77,13 @@ def _basic_auth(user: str, password: str) -> str:
     return f"Basic {token}"
 
 
+_UA = "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"
+
+
 def get_json(url: str, user: str, password: str) -> Any:
     req = urllib.request.Request(
         url,
-        headers={"Authorization": _basic_auth(user, password)},
+        headers={"Authorization": _basic_auth(user, password), "User-Agent": _UA},
     )
     with urllib.request.urlopen(req) as resp:
         return json.loads(resp.read().decode())
@@ -100,6 +103,7 @@ def post_json(
         headers={
             "Authorization": _basic_auth(user, password),
             "Content-Type": "application/json",
+            "User-Agent": _UA,
         },
     )
     try:
