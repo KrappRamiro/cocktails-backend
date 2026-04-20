@@ -3,9 +3,9 @@
 //! Centraliza la lógica de ensamblado de `Cocktail` desde múltiples tablas
 //! y el cálculo de disponibilidad en memoria.
 
+use crate::models::*;
 use std::collections::HashMap;
 use worker::*;
-use crate::models::*;
 
 /// Convierte un listado de filas planas de `cocktails` en structs `Cocktail` completos,
 /// cargando todos sus datos relacionados desde las tablas secundarias.
@@ -89,13 +89,12 @@ pub async fn assemble_cocktails(
     let ingredients_stmt = db.prepare(&ingredients_sql);
     let steps_stmt = db.prepare(&steps_sql);
     let required_stmt = db.prepare(&required_sql);
-    let (tastes_query_result, ingredients_query_result, steps_query_result, required_query_result) =
-        futures::join!(
-            tastes_stmt.all(),
-            ingredients_stmt.all(),
-            steps_stmt.all(),
-            required_stmt.all(),
-        );
+    let (tastes_query_result, ingredients_query_result, steps_query_result, required_query_result) = futures::join!(
+        tastes_stmt.all(),
+        ingredients_stmt.all(),
+        steps_stmt.all(),
+        required_stmt.all(),
+    );
 
     // Deserializar cada resultado en su tipo de fila correspondiente
     let taste_rows = tastes_query_result?.results::<TasteRow>()?;
@@ -188,11 +187,9 @@ pub fn is_cocktail_available(cocktail: &Cocktail, available_ids: &[uuid::Uuid]) 
 
 #[cfg(test)]
 mod tests {
-    use uuid::Uuid;
-    use crate::models::{
-        cocktail::{CocktailBase, CocktailTaste, GlassType, Cocktail},
-    };
     use super::is_cocktail_available;
+    use crate::models::cocktail::{Cocktail, CocktailBase, CocktailTaste, GlassType};
+    use uuid::Uuid;
 
     /// Construye un `Cocktail` mínimo para tests de disponibilidad.
     fn make_cocktail(required_ingredients: Vec<Uuid>) -> Cocktail {

@@ -1,8 +1,8 @@
 //! Structs para los bodies de los requests de las rutas admin.
 
-use serde::{Deserialize, Serialize};
 use crate::models::cocktail::{CocktailBase, CocktailTaste, GlassType};
 use crate::models::ingredient::IngredientCategory;
+use serde::{Deserialize, Serialize};
 
 /// Body para `POST /api/admin/ingredients` y `PUT /api/admin/ingredients/:id`.
 /// Crea o reemplaza los datos de un ingrediente.

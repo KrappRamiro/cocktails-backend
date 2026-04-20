@@ -3,9 +3,9 @@
 //! Todas las rutas de este módulo validan credenciales contra los secrets
 //! `ADMIN_USER` y `ADMIN_PASSWORD` del Worker.
 
+use crate::{cors_response, db, json_response_no_cache, models::*};
 use base64::Engine as _;
 use worker::*;
-use crate::{cors_response, db, json_response_no_cache, models::*};
 
 /// Reads an env binding by name.
 /// Tries every access method worker-rs provides: .secret(), .var(), and raw JsValue.
@@ -18,7 +18,10 @@ fn get_env_value(ctx: &RouteContext<()>, name: &str) -> Result<String> {
     if let Ok(val) = ctx.env.var(name) {
         return Ok(val.to_string());
     }
-    Err(worker::Error::RustError(format!("Binding `{}` is undefined. Set it in .dev.vars or wrangler secret put.", name)))
+    Err(worker::Error::RustError(format!(
+        "Binding `{}` is undefined. Set it in .dev.vars or wrangler secret put.",
+        name
+    )))
 }
 
 /// Valida Basic Auth contra los secrets del Worker.
@@ -52,8 +55,14 @@ macro_rules! require_auth {
         if !check_auth(&$req, &$ctx)? {
             let headers = Headers::new();
             headers.set("Access-Control-Allow-Origin", "*")?;
-            headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS")?;
-            headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization")?;
+            headers.set(
+                "Access-Control-Allow-Methods",
+                "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+            )?;
+            headers.set(
+                "Access-Control-Allow-Headers",
+                "Content-Type, Authorization",
+            )?;
             headers.set("Retry-After", "2")?;
             return Ok(Response::error("Unauthorized", 401)?.with_headers(headers));
         }
@@ -74,7 +83,11 @@ pub async fn create_ingredient(mut req: Request, ctx: RouteContext<()>) -> Resul
         .to_string();
 
     db.prepare("INSERT INTO ingredients (id, name, category) VALUES (?1, ?2, ?3)")
-        .bind(&[id.to_string().into(), payload.name.clone().into(), category_str.into()])?
+        .bind(&[
+            id.to_string().into(),
+            payload.name.clone().into(),
+            category_str.into(),
+        ])?
         .run()
         .await?;
 
@@ -88,8 +101,14 @@ pub async fn create_ingredient(mut req: Request, ctx: RouteContext<()>) -> Resul
     let headers = Headers::new();
     headers.set("Content-Type", "application/json")?;
     headers.set("Access-Control-Allow-Origin", "*")?;
-    headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS")?;
-    headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization")?;
+    headers.set(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+    )?;
+    headers.set(
+        "Access-Control-Allow-Headers",
+        "Content-Type, Authorization",
+    )?;
     let resp = Response::ok(body)?.with_headers(headers).with_status(201);
     Ok(resp)
 }
@@ -116,7 +135,11 @@ pub async fn update_ingredient(mut req: Request, ctx: RouteContext<()>) -> Resul
     }
 
     db.prepare("UPDATE ingredients SET name = ?1, category = ?2 WHERE id = ?3")
-        .bind(&[payload.name.clone().into(), category_str.into(), id.clone().into()])?
+        .bind(&[
+            payload.name.clone().into(),
+            category_str.into(),
+            id.clone().into(),
+        ])?
         .run()
         .await?;
 
@@ -155,7 +178,9 @@ pub async fn delete_ingredient(req: Request, ctx: RouteContext<()>) -> Result<Re
 
     // Verificar que no está en uso
     let in_use = db
-        .prepare("SELECT COUNT(*) as count FROM cocktail_required_ingredients WHERE ingredient_id = ?1")
+        .prepare(
+            "SELECT COUNT(*) as count FROM cocktail_required_ingredients WHERE ingredient_id = ?1",
+        )
         .bind(&[id.clone().into()])?
         .first::<CountRow>(None)
         .await?;
@@ -163,7 +188,10 @@ pub async fn delete_ingredient(req: Request, ctx: RouteContext<()>) -> Result<Re
     if in_use_count > 0 {
         let count = in_use_count;
         return cors_response(Response::error(
-            format!("Este ingrediente está en uso por {} receta(s). Eliminalo de las recetas primero.", count),
+            format!(
+                "Este ingrediente está en uso por {} receta(s). Eliminalo de las recetas primero.",
+                count
+            ),
             409,
         )?);
     }
@@ -273,8 +301,14 @@ pub async fn create_cocktail(mut req: Request, ctx: RouteContext<()>) -> Result<
     let payload: CocktailPayload = req.json().await?;
     let id = uuid::Uuid::new_v4();
 
-    let base_str = serde_json::to_value(&payload.base)?.as_str().unwrap_or_default().to_string();
-    let glass_str = serde_json::to_value(&payload.glass)?.as_str().unwrap_or_default().to_string();
+    let base_str = serde_json::to_value(&payload.base)?
+        .as_str()
+        .unwrap_or_default()
+        .to_string();
+    let glass_str = serde_json::to_value(&payload.glass)?
+        .as_str()
+        .unwrap_or_default()
+        .to_string();
     let is_adapted: i32 = if payload.is_adapted { 1 } else { 0 };
 
     // Build batch de statements
@@ -294,7 +328,10 @@ pub async fn create_cocktail(mut req: Request, ctx: RouteContext<()>) -> Result<
 
     // Tastes
     for taste in &payload.taste {
-        let taste_str = serde_json::to_value(taste)?.as_str().unwrap_or_default().to_string();
+        let taste_str = serde_json::to_value(taste)?
+            .as_str()
+            .unwrap_or_default()
+            .to_string();
         statements.push(
             db.prepare("INSERT INTO cocktail_tastes (cocktail_id, taste) VALUES (?1, ?2)")
                 .bind(&[id.to_string().into(), taste_str.into()])?,
@@ -337,8 +374,14 @@ pub async fn create_cocktail(mut req: Request, ctx: RouteContext<()>) -> Result<
     let headers = Headers::new();
     headers.set("Content-Type", "application/json")?;
     headers.set("Access-Control-Allow-Origin", "*")?;
-    headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS")?;
-    headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization")?;
+    headers.set(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+    )?;
+    headers.set(
+        "Access-Control-Allow-Headers",
+        "Content-Type, Authorization",
+    )?;
     Ok(Response::ok(body)?.with_headers(headers).with_status(201))
 }
 
@@ -359,8 +402,14 @@ pub async fn update_cocktail(mut req: Request, ctx: RouteContext<()>) -> Result<
         return cors_response(Response::error("Not Found", 404)?);
     }
 
-    let base_str = serde_json::to_value(&payload.base)?.as_str().unwrap_or_default().to_string();
-    let glass_str = serde_json::to_value(&payload.glass)?.as_str().unwrap_or_default().to_string();
+    let base_str = serde_json::to_value(&payload.base)?
+        .as_str()
+        .unwrap_or_default()
+        .to_string();
+    let glass_str = serde_json::to_value(&payload.glass)?
+        .as_str()
+        .unwrap_or_default()
+        .to_string();
     let is_adapted: i32 = if payload.is_adapted { 1 } else { 0 };
 
     let mut statements = vec![
@@ -385,7 +434,10 @@ pub async fn update_cocktail(mut req: Request, ctx: RouteContext<()>) -> Result<
 
     // Re-insert related data
     for taste in &payload.taste {
-        let taste_str = serde_json::to_value(taste)?.as_str().unwrap_or_default().to_string();
+        let taste_str = serde_json::to_value(taste)?
+            .as_str()
+            .unwrap_or_default()
+            .to_string();
         statements.push(
             db.prepare("INSERT INTO cocktail_tastes (cocktail_id, taste) VALUES (?1, ?2)")
                 .bind(&[id.clone().into(), taste_str.into()])?,
@@ -420,7 +472,9 @@ pub async fn update_cocktail(mut req: Request, ctx: RouteContext<()>) -> Result<
     }
 
     db.batch(statements).await?;
-    json_response_no_cache(&serde_json::to_string(&serde_json::json!({ "id": id, "name": payload.name }))?)
+    json_response_no_cache(&serde_json::to_string(
+        &serde_json::json!({ "id": id, "name": payload.name }),
+    )?)
 }
 
 /// DELETE /api/admin/cocktails/:id — Eliminar receta

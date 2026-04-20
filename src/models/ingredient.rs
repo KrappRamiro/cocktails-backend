@@ -37,6 +37,7 @@ pub struct Ingredient {
 
 /// Response del endpoint `GET /api/ingredients`.
 #[derive(Serialize, Deserialize)]
+#[allow(dead_code)]
 pub struct IngredientsResponse {
     /// Lista completa de ingredientes con su estado de disponibilidad.
     pub ingredients: Vec<Ingredient>,

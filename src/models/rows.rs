@@ -3,9 +3,9 @@
 //! Estos tipos NO se serializan a JSON — son intermedios entre la DB y los
 //! modelos de dominio. Solo implementan `Deserialize`.
 
-use serde::Deserialize;
 use crate::models::cocktail::{CocktailBase, CocktailTaste, GlassType};
 use crate::models::ingredient::IngredientCategory;
+use serde::Deserialize;
 
 /// Fila de la tabla `cocktails`.
 /// `base` y `glass` usan sus enums directamente para validación temprana.
@@ -51,6 +51,7 @@ pub struct CocktailIngredientRow {
     pub name: String,
     pub amount: String,
     pub note: Option<String>,
+    #[allow(dead_code)]
     pub sort_order: i32,
 }
 
@@ -58,6 +59,7 @@ pub struct CocktailIngredientRow {
 #[derive(Deserialize)]
 pub struct StepRow {
     pub cocktail_id: uuid::Uuid,
+    #[allow(dead_code)]
     pub step_order: i32,
     pub description: String,
 }

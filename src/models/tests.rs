@@ -8,11 +8,15 @@ mod tests {
     use uuid::Uuid;
 
     use crate::models::{
-        cocktail::{CocktailBase, CocktailTaste, GlassType, CocktailIngredient, Cocktail,
-                   CocktailWithAvailability, CocktailsResponse, Stats},
+        cocktail::{
+            Cocktail, CocktailBase, CocktailIngredient, CocktailTaste, CocktailWithAvailability,
+            CocktailsResponse, GlassType, Stats,
+        },
         ingredient::{Ingredient, IngredientCategory, IngredientsResponse},
-        payloads::{CocktailPayload, CocktailIngredientPayload,
-                   IngredientPayload, IngredientAvailabilityPayload},
+        payloads::{
+            CocktailIngredientPayload, CocktailPayload, IngredientAvailabilityPayload,
+            IngredientPayload,
+        },
     };
 
     // ─── Helpers ──────────────────────────────────────────────────────────────
@@ -44,19 +48,58 @@ mod tests {
 
     #[test]
     fn cocktail_base_serializes_to_snake_case() {
-        assert_eq!(serde_json::to_string(&CocktailBase::Gin).unwrap(), "\"gin\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Vodka).unwrap(), "\"vodka\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Tequila).unwrap(), "\"tequila\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Ron).unwrap(), "\"ron\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Pisco).unwrap(), "\"pisco\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Whisky).unwrap(), "\"whisky\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Brandy).unwrap(), "\"brandy\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Caipiroska).unwrap(), "\"caipiroska\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Caipirinha).unwrap(), "\"caipirinha\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::GinTonics).unwrap(), "\"gin_tonics\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Mocktail).unwrap(), "\"mocktail\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Espumante).unwrap(), "\"espumante\"");
-        assert_eq!(serde_json::to_string(&CocktailBase::Licores).unwrap(), "\"licores\"");
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Gin).unwrap(),
+            "\"gin\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Vodka).unwrap(),
+            "\"vodka\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Tequila).unwrap(),
+            "\"tequila\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Ron).unwrap(),
+            "\"ron\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Pisco).unwrap(),
+            "\"pisco\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Whisky).unwrap(),
+            "\"whisky\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Brandy).unwrap(),
+            "\"brandy\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Caipiroska).unwrap(),
+            "\"caipiroska\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Caipirinha).unwrap(),
+            "\"caipirinha\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::GinTonics).unwrap(),
+            "\"gin_tonics\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Mocktail).unwrap(),
+            "\"mocktail\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Espumante).unwrap(),
+            "\"espumante\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailBase::Licores).unwrap(),
+            "\"licores\""
+        );
     }
 
     #[test]
@@ -87,12 +130,30 @@ mod tests {
 
     #[test]
     fn cocktail_taste_serializes_to_snake_case() {
-        assert_eq!(serde_json::to_string(&CocktailTaste::Fresco).unwrap(), "\"fresco\"");
-        assert_eq!(serde_json::to_string(&CocktailTaste::Frutal).unwrap(), "\"frutal\"");
-        assert_eq!(serde_json::to_string(&CocktailTaste::Tropical).unwrap(), "\"tropical\"");
-        assert_eq!(serde_json::to_string(&CocktailTaste::Clasico).unwrap(), "\"clasico\"");
-        assert_eq!(serde_json::to_string(&CocktailTaste::Amargo).unwrap(), "\"amargo\"");
-        assert_eq!(serde_json::to_string(&CocktailTaste::SinAlcohol).unwrap(), "\"sin_alcohol\"");
+        assert_eq!(
+            serde_json::to_string(&CocktailTaste::Fresco).unwrap(),
+            "\"fresco\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailTaste::Frutal).unwrap(),
+            "\"frutal\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailTaste::Tropical).unwrap(),
+            "\"tropical\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailTaste::Clasico).unwrap(),
+            "\"clasico\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailTaste::Amargo).unwrap(),
+            "\"amargo\""
+        );
+        assert_eq!(
+            serde_json::to_string(&CocktailTaste::SinAlcohol).unwrap(),
+            "\"sin_alcohol\""
+        );
     }
 
     #[test]
@@ -118,11 +179,26 @@ mod tests {
 
     #[test]
     fn glass_type_serializes_to_snake_case() {
-        assert_eq!(serde_json::to_string(&GlassType::CopaMartini).unwrap(), "\"copa_martini\"");
-        assert_eq!(serde_json::to_string(&GlassType::CopaBalon).unwrap(), "\"copa_balon\"");
-        assert_eq!(serde_json::to_string(&GlassType::VasoAlto).unwrap(), "\"vaso_alto\"");
-        assert_eq!(serde_json::to_string(&GlassType::VasoBajo).unwrap(), "\"vaso_bajo\"");
-        assert_eq!(serde_json::to_string(&GlassType::CopaVino).unwrap(), "\"copa_vino\"");
+        assert_eq!(
+            serde_json::to_string(&GlassType::CopaMartini).unwrap(),
+            "\"copa_martini\""
+        );
+        assert_eq!(
+            serde_json::to_string(&GlassType::CopaBalon).unwrap(),
+            "\"copa_balon\""
+        );
+        assert_eq!(
+            serde_json::to_string(&GlassType::VasoAlto).unwrap(),
+            "\"vaso_alto\""
+        );
+        assert_eq!(
+            serde_json::to_string(&GlassType::VasoBajo).unwrap(),
+            "\"vaso_bajo\""
+        );
+        assert_eq!(
+            serde_json::to_string(&GlassType::CopaVino).unwrap(),
+            "\"copa_vino\""
+        );
     }
 
     #[test]
@@ -260,7 +336,10 @@ mod tests {
         assert_eq!(parsed.id, cocktail.id);
         assert_eq!(parsed.name, cocktail.name);
         assert_eq!(parsed.base, CocktailBase::Gin);
-        assert_eq!(parsed.taste, vec![CocktailTaste::Amargo, CocktailTaste::Clasico]);
+        assert_eq!(
+            parsed.taste,
+            vec![CocktailTaste::Amargo, CocktailTaste::Clasico]
+        );
         assert_eq!(parsed.glass, GlassType::VasoBajo);
         assert_eq!(parsed.required_ingredients, vec![req_id]);
         assert!(!parsed.is_adapted);
@@ -305,7 +384,10 @@ mod tests {
         let parsed: Cocktail = serde_json::from_str(&json).unwrap();
 
         assert!(parsed.is_adapted);
-        assert_eq!(parsed.adaptation_note, Some("Sin bitter, usar Angostura".to_string()));
+        assert_eq!(
+            parsed.adaptation_note,
+            Some("Sin bitter, usar Angostura".to_string())
+        );
     }
 
     // ─── CocktailWithAvailability: round-trip y flatten ───────────────────────
@@ -327,7 +409,10 @@ mod tests {
         assert!(value.get("base").is_some(), "base should be at root level");
         assert_eq!(value["is_available"], true);
         // No debe existir una clave "cocktail" anidada
-        assert!(value.get("cocktail").is_none(), "should not have nested 'cocktail' key");
+        assert!(
+            value.get("cocktail").is_none(),
+            "should not have nested 'cocktail' key"
+        );
     }
 
     #[test]
@@ -350,7 +435,10 @@ mod tests {
 
     #[test]
     fn stats_serializes_correctly() {
-        let stats = Stats { total: 10, available: 7 };
+        let stats = Stats {
+            total: 10,
+            available: 7,
+        };
         let value: serde_json::Value = serde_json::to_value(&stats).unwrap();
         assert_eq!(value["total"], 10);
         assert_eq!(value["available"], 7);
@@ -358,7 +446,10 @@ mod tests {
 
     #[test]
     fn stats_round_trip() {
-        let stats = Stats { total: 0, available: 0 };
+        let stats = Stats {
+            total: 0,
+            available: 0,
+        };
         let json = serde_json::to_string(&stats).unwrap();
         let parsed: Stats = serde_json::from_str(&json).unwrap();
         assert_eq!(parsed.total, 0);
@@ -376,7 +467,10 @@ mod tests {
                 cocktail,
                 is_available: true,
             }],
-            stats: Stats { total: 1, available: 1 },
+            stats: Stats {
+                total: 1,
+                available: 1,
+            },
         };
 
         let value: serde_json::Value = serde_json::to_value(&response).unwrap();
@@ -394,7 +488,10 @@ mod tests {
     fn cocktails_response_empty() {
         let response = CocktailsResponse {
             cocktails: vec![],
-            stats: Stats { total: 0, available: 0 },
+            stats: Stats {
+                total: 0,
+                available: 0,
+            },
         };
         let value: serde_json::Value = serde_json::to_value(&response).unwrap();
         assert_eq!(value["cocktails"].as_array().unwrap().len(), 0);
@@ -431,7 +528,10 @@ mod tests {
         let payload: CocktailPayload = serde_json::from_str(&json).unwrap();
         assert_eq!(payload.name, "Negroni");
         assert_eq!(payload.base, CocktailBase::Gin);
-        assert_eq!(payload.taste, vec![CocktailTaste::Amargo, CocktailTaste::Clasico]);
+        assert_eq!(
+            payload.taste,
+            vec![CocktailTaste::Amargo, CocktailTaste::Clasico]
+        );
         assert_eq!(payload.glass, GlassType::VasoBajo);
         assert_eq!(payload.ingredients.len(), 1);
         assert_eq!(payload.ingredients[0].amount, "30ml");
@@ -669,10 +769,7 @@ mod tests {
     fn cocktail_ingredient_payload_without_note_field_defaults_to_none() {
         // serde trata campos Option<T> ausentes como None por defecto
         let id = Uuid::new_v4();
-        let json = format!(
-            r#"{{"ingredient_id": "{}", "amount": "50ml"}}"#,
-            id
-        );
+        let json = format!(r#"{{"ingredient_id": "{}", "amount": "50ml"}}"#, id);
         let payload = serde_json::from_str::<CocktailIngredientPayload>(&json).unwrap();
         assert!(payload.note.is_none());
         assert_eq!(payload.amount, "50ml");

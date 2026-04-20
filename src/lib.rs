@@ -31,9 +31,18 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
         .get_async("/api/ingredients", routes::ingredients::list_ingredients)
         // Rutas admin — ingredientes
         .post_async("/api/admin/ingredients", routes::admin::create_ingredient)
-        .put_async("/api/admin/ingredients/:id", routes::admin::update_ingredient)
-        .delete_async("/api/admin/ingredients/:id", routes::admin::delete_ingredient)
-        .patch_async("/api/admin/ingredients/:id/available", routes::admin::toggle_ingredient)
+        .put_async(
+            "/api/admin/ingredients/:id",
+            routes::admin::update_ingredient,
+        )
+        .delete_async(
+            "/api/admin/ingredients/:id",
+            routes::admin::delete_ingredient,
+        )
+        .patch_async(
+            "/api/admin/ingredients/:id/available",
+            routes::admin::toggle_ingredient,
+        )
         // Rutas admin — cocktails
         .get_async("/api/admin/cocktails", routes::admin::list_cocktails_admin)
         .post_async("/api/admin/cocktails", routes::admin::create_cocktail)
@@ -50,8 +59,14 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
 pub fn cors_response(res: Response) -> Result<Response> {
     let headers = Headers::new();
     headers.set("Access-Control-Allow-Origin", "*")?;
-    headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS")?;
-    headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization")?;
+    headers.set(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+    )?;
+    headers.set(
+        "Access-Control-Allow-Headers",
+        "Content-Type, Authorization",
+    )?;
     Ok(res.with_headers(headers))
 }
 
@@ -66,8 +81,14 @@ pub fn json_response(body: &str) -> Result<Response> {
     headers.set("Content-Type", "application/json")?;
     headers.set("Cache-Control", "public, max-age=10")?;
     headers.set("Access-Control-Allow-Origin", "*")?;
-    headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS")?;
-    headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization")?;
+    headers.set(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+    )?;
+    headers.set(
+        "Access-Control-Allow-Headers",
+        "Content-Type, Authorization",
+    )?;
     Response::ok(body).map(|r| r.with_headers(headers))
 }
 
@@ -78,7 +99,13 @@ pub fn json_response_no_cache(body: &str) -> Result<Response> {
     headers.set("Content-Type", "application/json")?;
     headers.set("Cache-Control", "no-store")?;
     headers.set("Access-Control-Allow-Origin", "*")?;
-    headers.set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, PATCH, OPTIONS")?;
-    headers.set("Access-Control-Allow-Headers", "Content-Type, Authorization")?;
+    headers.set(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, PATCH, OPTIONS",
+    )?;
+    headers.set(
+        "Access-Control-Allow-Headers",
+        "Content-Type, Authorization",
+    )?;
     Response::ok(body).map(|r| r.with_headers(headers))
 }
