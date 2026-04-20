@@ -61,7 +61,9 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
 
 /// Retorna información básica de la API: nombre y lista de endpoints públicos.
 async fn api_info(_req: Request, _ctx: RouteContext<()>) -> Result<Response> {
-    json_response(r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#)
+    json_response(
+        r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#,
+    )
 }
 
 /// Agrega los headers CORS estándar a un Response existente.
