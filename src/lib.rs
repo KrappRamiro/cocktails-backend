@@ -22,12 +22,9 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
             cors_response(Response::empty()?)
         })
         // API info
-        .get_async("/", |_req, _ctx| async move {
-            json_response(r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#)
-        })
-        .get_async("/api", |_req, _ctx| async move {
-            json_response(r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#)
-        })
+        .get_async("/", api_info)
+        .get_async("/api", api_info)
+        .get_async("/api/", api_info)
         // Health check
         .get_async("/api/health", |_req, _ctx| async move {
             json_response(r#"{"status":"ok"}"#)
@@ -57,6 +54,11 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
         .delete_async("/api/admin/cocktails/:id", routes::admin::delete_cocktail)
         .run(req, env)
         .await
+}
+
+/// Retorna información básica de la API: nombre y lista de endpoints públicos.
+async fn api_info(_req: Request, _ctx: RouteContext<()>) -> Result<Response> {
+    json_response(r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#)
 }
 
 /// Agrega los headers CORS estándar a un Response existente.
