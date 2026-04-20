@@ -2,6 +2,13 @@ name = "cocktail-worker"
 main = "build/worker/shim.mjs"
 compatibility_date = "2024-01-01"
 
+workers_dev  = true
+preview_urls = true
+
+routes = [
+  { pattern = "cocktails-worker.krapp.dev", custom_domain = true }
+]
+
 [build]
 # RUSTFLAGS='' is required before worker-build. devenv's Rust module sets
 # RUSTFLAGS="-C link-arg=-fuse-ld=lld" globally so native Rust builds use LLD.

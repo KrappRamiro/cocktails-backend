@@ -21,6 +21,13 @@ pub async fn main(req: Request, env: Env, _ctx: Context) -> Result<Response> {
         .options_async("/*path", |_req, _ctx| async move {
             cors_response(Response::empty()?)
         })
+        // API info
+        .get_async("/", |_req, _ctx| async move {
+            json_response(r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#)
+        })
+        .get_async("/api", |_req, _ctx| async move {
+            json_response(r#"{"name":"Coctelería API","endpoints":["/api/health","/api/cocktails","/api/cocktails/:id","/api/ingredients"]}"#)
+        })
         // Health check
         .get_async("/api/health", |_req, _ctx| async move {
             json_response(r#"{"status":"ok"}"#)
